@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0F182C;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #DDE4ED;
+    margin-bottom: 40px;
+}
+
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.category-card {
+    background-color: #3d51891e;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2); /* horizontal-offset vertical-offset blur-radius color */
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    margin: 20px;
+    width: calc(33.33% - 40px);
+    height:calc(33.33% - 20px);
+
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.category-card img {
+    width: auto;
+    height: auto;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.category-details {
+    padding: 20px;
+}
+
+.category-details h2 {
+    margin-top: 0;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+.category-details a {
+    display: inline-block;
+    background-color: #48432119;
+    color: #DDE4ED;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.category-details a:hover {
+    background-color: #236ab6;
+}
+.explore-btn {
+    display: inline-block;
+    background-color:initial;
+    color: #DDE4ED;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: auto; /* Push the button to the bottom */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.explore-btn i {
+    margin-left: 5px; /* Add some space between text and icon */
+}

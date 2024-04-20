@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+    <link rel="stylesheet" href="/static/css/categories.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Categories</h1>
+        <div class="category-container">
+            {% for category in categories %}
+            <div class="category-card">
+                <img src="{{ category['strCategoryThumb'] }}" alt="{{ category['strCategory'] }}" class="category-image">
+                <div class="category-details">
+                    <h2>{{ category['strCategory'] }}</h2>
+                    <!-- <p>{{ category['strCategoryDescription'] }}</p> -->
+                    <a href="#" class="explore-btn">
+                        Explore More <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
