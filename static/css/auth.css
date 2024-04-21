@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0F182C;
+    background-image: url("/static/images/LOGIN.svg");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background: linear-gradient(to right, #1c2642, #0F182C, #1c2642);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    text-align: center;
+    width: 500px;
+    height: max-content;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 32px;
+    color: #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input[type="text"],
+input[type="password"] {
+    margin-bottom: 24px;
+    height: 48px;
+    padding: 8px;
+    font-size: large;
+    margin-inline: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    height: 62px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 10px;
+    color: #ccc;
+
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

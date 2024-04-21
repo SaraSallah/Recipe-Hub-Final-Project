@@ -2,8 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0F182C;
+    background: linear-gradient(to right, #0F182C, #1c2642);
 }
+
 
 .container {
     width: 80%;
@@ -62,7 +63,8 @@ h1 {
 
 .category-details a {
     display: inline-block;
-    background-color: #48432119;
+    background-color: #1c2642;
+    border: #DDE4ED solid;
     color: #DDE4ED;
     text-decoration: none;
     padding: 10px 20px;
@@ -76,7 +78,7 @@ h1 {
 }
 .explore-btn {
     display: inline-block;
-    background-color:initial;
+    background-color:#1c2642;
     color: #DDE4ED;
     text-decoration: none;
     padding: 10px 20px;
