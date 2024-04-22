@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
+
 <body>
-    <h2> Hello All</h2>
-    <a href="/login"> Login Page</a><br>
-    <a href="/signUp">Registre Page</a><br>
-    
+    <section>
+        <div id="about-web">
+            <img  id="logo" src="/static/images/logo.svg" alt="webSite-logo">
+            <p id="about"> Discover a world of flavorful recipes at Recipe Hub.
+        </p>
+        </div>
+        <div class="container-pag1">
+            {% if recipes %}
+            <div id="left-home">
+                <div id="recipe-card">
+                    <img src="{{ recipes[0].strMealThumb }}" alt="{{ recipes[0].strMeal }}">
+                    <div id="recipy-details">
+                        <h2 class="str-name">{{ recipes[0].strMeal }}</h2>
+                    </div>
+                </div>
+                <div class="category-card" id="category-card">
+                    <img src="/static/images/categories.svg" alt="explore categories" class="category-image">
+                    <div class="category-details">
+                        <h2 class="str-name">See more categories</h2>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            <div class="recipy-home-image">
+                <img src="/static/images/recipy-home.svg" alt="recipe-img">
+            </div>
+        </div>
+    </section>
+    <script src="/static/js/script.js"></script>
 </body>
+
+
 </html>

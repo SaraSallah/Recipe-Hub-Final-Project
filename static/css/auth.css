@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 24px;
     text-align: center;
-    width: 500px;
+    width: 400px;
     height: max-content;
 }
 
@@ -37,13 +37,14 @@ form {
 input[type="text"],
 input[type = "email"] ,
 input[type="password"] {
-    margin-bottom: 24px;
-    height: 48px;
+    margin-bottom: 20px;
+    height: 40px;
     padding: 8px;
-    font-size: large;
+    padding-inline-start: 16px;
+    font-size: medium;
     margin-inline: 16px;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 input[type="submit"] {
@@ -52,7 +53,9 @@ input[type="submit"] {
     padding: 10px;
     height: 62px;
     margin-bottom: 32px;
-    margin-top: 32px;
+    margin-inline: 16px;
+
+    /* margin-top: 32px; */
     border: none;
     font-size: large;
     font-weight: bold;
@@ -82,8 +85,8 @@ input[type="submit"]:hover {
 }
 
 .logo {
-    width: 300px;
-    padding-top: 50px;
+    width: 250px;
+    padding-top: 30px;
     padding-bottom: 50px;
 }
 

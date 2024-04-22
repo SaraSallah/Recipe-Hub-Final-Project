@@ -14,7 +14,7 @@
         <div class="form-container">
             <h2>Sign Up</h2>
             <form id="signup-form" action="/signUp" method="post">
-                <input type="text" name="username" placeholder="Username" required><br>
+                <input type="text" name="username" placeholder="Username" required>
                 {% if validation_message %}
                     <span class="warning">{{ validation_message }}</span><br>
                 {% endif %}
