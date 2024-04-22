@@ -10,11 +10,7 @@ def home():
    with open("recipes.json", "r") as json_file:
        recipes_data = json.load(json_file)
    return render_template("index.html", recipes=recipes_data["recipes"])
-
-
-# @app.route("/login")
-# def login():
-#     return render_template("login.html") 
+ 
 
 @app.route("/signUp", methods=["POST", "GET"])
 def signUp():
@@ -57,7 +53,7 @@ def login():
 
         for user in data:
             if user['email'] == email and user['pass'] == password:
-                return redirect('/')
+                return redirect('/') 
 
         validation_message = 'Invalid email or password. Please try again.'
         return render_template('login.html', validation_message=validation_message)

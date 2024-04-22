@@ -36,7 +36,20 @@
                 <img src="/static/images/recipy-home.svg" alt="recipe-img">
             </div>
         </div>
+    </section><br>
+    <section>
+        <div id="recipes-container">
+            {% for recipe in recipes %}
+            <div class="recipe-list-card">
+                <img src="{{ recipe['strMealThumb'] }}" alt="{{ recipe['strMeal'] }}" class="recipe-image">
+                <div class="recipe-details">
+                    <h2 class="str-name">{{ recipe['strMeal'] }}</h2>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
     </section>
+    
     <script src="/static/js/script.js"></script>
 </body>
 
