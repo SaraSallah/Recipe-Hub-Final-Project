@@ -40,7 +40,7 @@
     <section>
         <div id="recipes-container">
             {% for recipe in recipes %}
-            <div class="recipe-list-card">
+            <div class="recipe-list-card"  data-id = "{{recipe['idMeal']}}">
                 <img src="{{ recipe['strMealThumb'] }}" alt="{{ recipe['strMeal'] }}" class="recipe-image">
                 <div class="recipe-details">
                     <h2 class="str-name">{{ recipe['strMeal'] }}</h2>

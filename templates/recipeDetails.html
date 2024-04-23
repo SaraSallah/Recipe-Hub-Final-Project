@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <link rel="stylesheet" href="/static/css/recipeDetails.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <h1>{{ data.strMeal }}</h1>
+            <!-- <h4>Category: {{ data.strCategory }}</h4> -->
+            <div class="ingredients">
+                <h2>Ingredients:</h2>
+                <ul>
+                    {% for ingredient in data.ingredients %}
+                        <li><i class="fas fa-utensils"></i> {{ ingredient.name }} - {{ ingredient.measurement }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
+            <div class="instructions">
+                <h2>Instructions:</h2>
+                <p>{{ data.strInstructions }}</p>
+            </div>
+            <div class="youtube-link">
+                <button class="youtube-button" onclick="window.open('{{ data.strYoutube }}', '_blank')">
+                    <i class="fab fa-youtube"></i> YouTube
+                </button>
+            </div>
+        </div>
+        <div class="right-side">
+            <img src="{{ data.strMealThumb }}" alt="{{ data.strMeal }}">
+        </div>
+    </div>
+</body>
+</html>

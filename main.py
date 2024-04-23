@@ -65,3 +65,16 @@ def category():
     with open("categories.json", "r") as json_file:
         categories_data = json.load(json_file)
     return flask.render_template("categories.html", categories=categories_data["categories"])
+
+@app.route("/recipe-details/<id>")
+def recipe_details(id):
+    with open("recipes.json", "r") as json_file:
+        recipes_data = json.load(json_file)
+    # Find the recipe with the given ID
+    recipe = None
+    for r in recipes_data["recipes"]:
+        if r["idMeal"] == id:
+            recipe = r
+            break
+
+    return render_template("recipeDetails.html", data=recipe)
