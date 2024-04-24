@@ -21,7 +21,6 @@ function checkSavedUser() {
     const password = localStorage.getItem("password");
 
     if (email && password) {
-        // Redirect to home page if user is already logged in
-        window.location.href = "http://127.0.0.1:5000/";
+        window.location.href = "http://127.0.0.1:5000/home";
     }
 }

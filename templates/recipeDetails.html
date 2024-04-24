@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Details</title>
     <link rel="stylesheet" href="/static/css/recipeDetails.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    
-
 </head>
 <body>
     <div class="container">
         <div class="left-side">
             <h1>{{ data.strMeal }}</h1>
-            <!-- <h4>Category: {{ data.strCategory }}</h4> -->
             <div class="ingredients">
                 <h2>Ingredients:</h2>
                 <ul>
@@ -27,15 +25,51 @@
                 <h2>Instructions:</h2>
                 <p>{{ data.strInstructions }}</p>
             </div>
-            <div class="youtube-link">
-                <button class="youtube-button" onclick="window.open('{{ data.strYoutube }}', '_blank')">
-                    <i class="fab fa-youtube"></i> YouTube
-                </button>
+            <div id="buttons">
+                <div class="youtube-link">
+                    <button class="youtube-button" onclick="window.open('{{ data.strYoutube }}', '_blank')">
+                        <i class="fab fa-youtube"></i> YouTube
+                    </button>
+                </div>
+                <div class="favorite">
+                    <button class="favorite-button" onclick="toggleFavorite('{{ data }}')">
+                        <span class="button-text">Favorite</span>
+                        <i class="fas fa-heart"></i>
+                    </button>
+                </div>
             </div>
         </div>
+
+        
         <div class="right-side">
             <img src="{{ data.strMealThumb }}" alt="{{ data.strMeal }}">
         </div>
     </div>
+    <script>
+        function toggleFavorite(data) {
+            const button = event.target.closest('.favorite-button');
+            const heartIcon = button.querySelector('i.fa-heart');
+            const isFavorited = button.classList.toggle('favorited');
+
+            if (isFavorited) {
+                // Add to favorites
+                // Simulate adding data to favorites
+                const favoriteData = JSON.parse(data); // Parse JSON string to object
+                // In a real scenario, you would save this data to users.json
+                console.log('Added to favorites:', favoriteData);
+                heartIcon.classList.add('fas');
+                heartIcon.classList.remove('far');
+            } else {
+                // Remove from favorites
+                // Simulate removing data from favorites
+                const favoriteData = JSON.parse(data); // Parse JSON string to object
+                // In a real scenario, you would remove this data from users.json
+                console.log('Removed from favorites:', favoriteData);
+                heartIcon.classList.remove('fas');
+                heartIcon.classList.add('far');
+            }
+        }
+    </script>
+    <script src="/static/js/recipeDetails.js"></script>
 </body>
 </html>

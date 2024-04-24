@@ -2,11 +2,13 @@
     {
         "email": "user1@example.com",
         "pass": "password1",
-        "user": "user1"
+        "user": "user1" ,
+        "favorites": []
     },
     {
         "email": "sara@gmail.com",
         "pass": "123456789",
-        "user": "SaraSallah"
+        "user": "SaraSallah",
+        "favorites": [] 
     }
 ]

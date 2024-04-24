@@ -41,8 +41,7 @@ body {
     border-radius: 8px;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     margin: 20px;
-    
-
+    cursor:pointer;
     overflow: hidden;}
 .category-card{
     margin: 20px;
@@ -54,6 +53,7 @@ body {
     background: linear-gradient(to right, #0F182C, #27355A, #0F182C);
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2); /* horizontal-offset vertical-offset blur-radius color */
     border-radius: 8px;
+    cursor:pointer;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     margin: 20px;
 }

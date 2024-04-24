@@ -49,7 +49,7 @@ h2 {
 }
 
 .ingredients,.instructions{
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0); /* horizontal-offset vertical-offset blur-radius color */
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0); 
     background: linear-gradient(to right, #0F182C, #27355A, #0F182C);
     padding: 14px;
     margin: 14px;
@@ -90,10 +90,39 @@ h2 {
 
 .youtube-button:hover {
     background-color: #CC0000; /* Darker red on hover */
+    transform: fade in;
 }
 
 .youtube-button i {
     margin-right: 5px;
+}
+.favorite {
+    margin-top: 20px;
+}
+
+.favorite-button {
+    background-color:#27355A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.favorite-button:hover {
+    background-color: #CC0000;
+}
+
+.favorite-button i {
+    margin-right: 5px;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+
 }
 
 

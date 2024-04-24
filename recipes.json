@@ -1,229 +1,775 @@
 {
-    "recipes": [
-      {
-        "idMeal": "52768",
-        "strMeal": "Apple Frangipan Tart",
-        "strDrinkAlternate": null,
-        "strCategory": "Dessert",
-        "strArea": "British",
-        "strInstructions": "Preheat the oven to 200C/180C Fan/Gas 6.\r\nPut the biscuits in a large re-sealable freezer bag and bash with a rolling pin into fine crumbs. Melt the butter in a small pan, then add the biscuit crumbs and stir until coated with butter. Tip into the tart tin and, using the back of a spoon, press over the base and sides of the tin to give an even layer. Chill in the fridge while you make the filling.\r\nCream together the butter and sugar until light and fluffy. You can do this in a food processor if you have one. Process for 2-3 minutes. Mix in the eggs, then add the ground almonds and almond extract and blend until well combined.\r\nPeel the apples, and cut thin slices of apple. Do this at the last minute to prevent the apple going brown. Arrange the slices over the biscuit base. Spread the frangipane filling evenly on top. Level the surface and sprinkle with the flaked almonds.\r\nBake for 20-25 minutes until golden-brown and set.\r\nRemove from the oven and leave to cool for 15 minutes. Remove the sides of the tin. An easy way to do this is to stand the tin on a can of beans and push down gently on the edges of the tin.\r\nTransfer the tart, with the tin base attached, to a serving plate. Serve warm with cream, crème fraiche or ice cream.",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg",
-        "strTags": "Tart,Baking,Fruity",
-        "strYoutube": "https://www.youtube.com/watch?v=rp8Slv4INLk",
-        "ingredients": [
-          {"name": "digestive biscuits", "measurement": "175g/6oz"},
-          {"name": "butter", "measurement": "75g/3oz"},
-          {"name": "Bramley apples", "measurement": "200g/7oz"},
-          {"name": "butter, softened", "measurement": "75g/3oz"},
-          {"name": "caster sugar", "measurement": "75g/3oz"},
-          {"name": "free-range eggs, beaten", "measurement": "2"},
-          {"name": "ground almonds", "measurement": "75g/3oz"},
-          {"name": "almond extract", "measurement": "1 tsp"},
-          {"name": "flaked almonds", "measurement": "50g/1¾oz"}
-        ]
-      },
-      {
-        "idMeal": "52893",
-        "strMeal": "Apple & Blackberry Crumble",
-        "strDrinkAlternate": null,
-        "strCategory": "Dessert",
-        "strArea": "British",
-        "strInstructions": "Heat oven to 190C/170C fan/gas 5. Tip the flour and sugar into a large bowl. Add the butter, then rub into the flour using your fingertips to make a light breadcrumb texture. Do not overwork it or the crumble will become heavy. Sprinkle the mixture evenly over a baking sheet and bake for 15 mins or until lightly coloured.\r\nMeanwhile, for the compote, peel, core and cut the apples into 2cm dice. Put the butter and sugar in a medium saucepan and melt together over a medium heat. Cook for 3 mins until the mixture turns to a light caramel. Stir in the apples and cook for 3 mins. Add the blackberries and cinnamon, and cook for 3 mins more. Cover, remove from the heat, then leave for 2-3 mins to continue cooking in the warmth of the pan.\r\nTo serve, spoon the warm fruit into an ovenproof gratin dish, top with the crumble mix, then reheat in the oven for 5-10 mins. Serve with vanilla ice cream.",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xvsurr1511719182.jpg",
-        "strTags": "Pudding",
-        "strYoutube": "https://www.youtube.com/watch?v=4vhcOwVBDO4",
-        "ingredients": [
-          {"name": "Plain Flour", "measurement": "120g"},
-          {"name": "Caster Sugar", "measurement": "60g"},
-          {"name": "Butter", "measurement": "60g"},
-          {"name": "Braeburn Apples", "measurement": "300g"},
-          {"name": "Butter", "measurement": "30g"},
-          {"name": "Demerara Sugar", "measurement": "30g"},
-          {"name": "Blackberries", "measurement": "120g"},
-          {"name": "Cinnamon", "measurement": "¼ teaspoon"},
-          {"name": "Ice Cream", "measurement": "to serve"}
-        ]
-      },
-      {
-        "idMeal": "53049",
-        "strMeal": "Apam balik",
-        "strDrinkAlternate": null,
-        "strCategory": "Dessert",
-        "strArea": "Malaysian",
-        "strInstructions": "Mix milk, oil and egg together. Sift flour, baking powder and salt into the mixture. Stir well until all ingredients are combined evenly.\r\n\r\nSpread some batter onto the pan. Spread a thin layer of batter to the side of the pan. Cover the pan for 30-60 seconds until small air bubbles appear.\r\n\r\nAdd butter, cream corn, crushed peanuts and sugar onto the pancake. Fold the pancake into half once the bottom surface is browned.\r\n\r\nCut into wedges and best eaten when it is warm.",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/adxcbq1619787919.jpg",
-        "strTags": null,
-        "strYoutube": "https://www.youtube.com/watch?v=6R8ffRRJcrg",
-        "ingredients": [
-          {"name": "Milk", "measurement": "200ml"},
-          {"name": "Oil", "measurement": "60ml"},
-          {"name": "Eggs", "measurement": "2"},
-          {"name": "Flour", "measurement": "1600g"},
-          {"name": "Baking Powder", "measurement": "3 tsp"},
-          {"name": "Salt", "measurement": "1/2 tsp"},
-          {"name": "Unsalted Butter", "measurement": "25g"},
-          {"name": "Sugar", "measurement": "45g"},
-          {"name": "Peanut Butter", "measurement": "3 tbs"}
-        ]
-      },
-      {
-        "idMeal": "53050",
-        "strMeal": "Ayam Percik",
-        "strDrinkAlternate": null,
-        "strCategory": "Chicken",
-        "strArea": "Malaysian",
-        "strInstructions": "In a blender, add the ingredients for the spice paste and blend until smooth.\r\nOver medium heat, pour the spice paste in a skillet or pan and fry for 10 minutes until fragrant. Add water or oil 1 tablespoon at a time if the paste becomes too dry. Don't burn the paste. Lower the fire slightly if needed.\r\nAdd the cloves, cardamom, tamarind pulp, coconut milk, water, sugar and salt. Turn the heat up and bring the mixture to boil. Turn the heat to medium low and simmer for 10 minutes. Stir occasionally. It will reduce slightly. This is the marinade/sauce, so taste and adjust seasoning if necessary. Don't worry if it's slightly bitter. It will go away when roasting.\r\nWhen the marinade/sauce has cooled, pour everything over the chicken and marinate overnight to two days.\r\nPreheat the oven to 425 F.\r\nRemove the chicken from the marinade. Spoon the marinade onto a greased (or aluminum lined) baking sheet. Lay the chicken on top of the sauce (make sure the chicken covers the sauce and the sauce isn't exposed or it'll burn) and spread the remaining marinade on the chicken. Roast for 35-45 minutes or until internal temp of the thickest part of chicken is at least 175 F.\r\nLet chicken rest for 5 minutes. Brush the chicken with some of the oil. Serve chicken with the sauce over steamed rice (or coconut rice).",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/020z181619788503.jpg",
-        "strTags": null,
-        "strYoutube": "https://www.youtube.com/watch?v=9ytR28QK6I8",
-        "ingredients": [
-          {"name": "Chicken Thighs", "measurement": "6"},
-          {"name": "Challots", "measurement": "16"},
-          {"name": "Ginger", "measurement": "1 1/2 "},
-          {"name": "Garlic Clove", "measurement": "6"},
-          {"name": "Cayenne Pepper", "measurement": "8"},
-          {"name": "Turmeric", "measurement": "2 tbs"},
-          {"name": "Cumin", "measurement": "1 1/2 "},
-          {"name": "Coriander", "measurement": "1 1/2 "},
-          {"name": "Fennel", "measurement": "1 1/2 "},
-          {"name": "Tamarind Paste", "measurement": "2 tbs"},
-          {"name": "Coconut Milk", "measurement": "1 can "},
-          {"name": "Sugar", "measurement": "1 tsp "},
-          {"name": "Water", "measurement": "1 cup "}
-        ],
-        "strSource": "http://www.curiousnut.com/roasted-spiced-chicken-ayam-percik/",
-        "strImageSource": null,
-        "strCreativeCommonsConfirmed": null,
-        "dateModified": null
-      },
-      {
-        "idMeal": "52767",
-        "strMeal": "Bakewell tart",
-        "strDrinkAlternate": null,
-        "strCategory": "Dessert",
-        "strArea": "British",
-        "strInstructions": "To make the pastry, measure the flour into a bowl and rub in the butter with your fingertips until the mixture resembles fine breadcrumbs. Add the water, mixing to form a soft dough.\r\nRoll out the dough on a lightly floured work surface and use to line a 20cm/8in flan tin. Leave in the fridge to chill for 30 minutes.\r\nPreheat the oven to 200C/400F/Gas 6 (180C fan).\r\nLine the pastry case with foil and fill with baking beans. Bake blind for about 15 minutes, then remove the beans and foil and cook for a further five minutes to dry out the base.\r\nFor the filing, spread the base of the flan generously with raspberry jam.\r\nMelt the butter in a pan, take off the heat and then stir in the sugar. Add ground almonds, egg and almond extract. Pour into the flan tin and sprinkle over the flaked almonds.\r\nBake for about 35 minutes. If the almonds seem to be browning too quickly, cover the tart loosely with foil to prevent them burning.",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wyrqqq1468233628.jpg",
-        "strTags": "Tart,Baking,Alcoholic",
-        "strYoutube": "https://www.youtube.com/watch?v=1ahpSTf_Pvk",
-        "ingredients": [
-            {"name": "plain flour", "measurement": "175g/6oz"},
-            {"name": "chilled butter", "measurement": "75g/2½oz"},
-            {"name": "cold water", "measurement": "2-3 tbsp"},
-            {"name": "raspberry jam", "measurement": "1 tbsp"},
-            {"name": "butter", "measurement": "125g/4½oz"},
-            {"name": "caster sugar", "measurement": "125g/4½oz"},
-            {"name": "ground almonds", "measurement": "125g/4½oz"},
-            {"name": "free-range egg, beaten", "measurement": "1"},
-            {"name": "almond extract", "measurement": "½ tsp"},
-            {"name": "flaked almonds", "measurement": "50g/1¾oz"}
-        ]
+  "recipes": [
+    {
+      "idMeal": "53029",
+      "strMeal": "Mulukhiyah",
+      "strDrinkAlternate": null,
+      "strCategory": "Beef",
+      "strArea": "Egyptian",
+      "strInstructions": "Saute the onions in the 3-4 tablespoons olive oil\r\nAdd the beef cubes or the chicken cutlets, sear for 3-4 min on each side\r\nAdd 1 liter of water or just enough to cover the meat\r\nCook over medium heat until the meat is done (I usually do this in the pressure cooker and press them for 5 min)\r\n\r\nAdd the frozen mulukhyia and stir until it thaws completely and then comes to a boil\r\n\r\nIn another pan add the 1/4 to 1/2 cup of olive oil and the cloves of garlic and cook over medium low heat until you can smell the garlic (don’t brown it, it will become bitter)\r\n\r\nAdd the oil and garlic to the mulukhyia and lower the heat and simmer for 5-10 minutes\r\nAdd salt to taste\r\n\r\nServe with a generous amount of lemon juice.\r\n\r\nYou can serve it with some short grain rice or some pita bread",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/x372ug1598733932.jpg",
+      "strTags": null,
+      "strYoutube": "https://www.youtube.com/watch?v=vWc5JzgAkIQ",
+      "ingredients": [
+        {
+          "name": "Mulukhiyah",
+          "measurement": "800g"
+        },
+        {
+          "name": "Onion",
+          "measurement": "1 chopped"
+        },
+        {
+          "name": "Beef",
+          "measurement": "300g"
+        },
+        {
+          "name": "Salt",
+          "measurement": "1 tsp"
+        },
+        {
+          "name": "Water",
+          "measurement": "1 Litre"
+        },
+        {
+          "name": "Garlic Clove",
+          "measurement": "1"
+        },
+        {
+          "name": "Olive Oil",
+          "measurement": "1/2 cup"
+        }
+      ],
+      "isFav":"false",
+      "strSource": "https://chefindisguise.com/2017/05/15/mulukhiyah-a-stew-fit-for-royals/"
     },
     {
-        "idMeal": "52792",
-        "strMeal": "Bread and Butter Pudding",
-        "strDrinkAlternate": null,
-        "strCategory": "Dessert",
-        "strArea": "British",
-        "strInstructions": "Grease a 1 litre/2 pint pie dish with butter.\r\nCut the crusts off the bread. Spread each slice with on one side with butter, then cut into triangles.\r\nArrange a layer of bread, buttered-side up, in the bottom of the dish, then add a layer of sultanas. Sprinkle with a little cinnamon, then repeat the layers of bread and sultanas, sprinkling with cinnamon, until you have used up all of the bread. Finish with a layer of bread, then set aside.\r\nGently warm the milk and cream in a pan over a low heat to scalding point. Don't let it boil.\r\nCrack the eggs into a bowl, add three quarters of the sugar and lightly whisk until pale.\r\nAdd the warm milk and cream mixture and stir well, then strain the custard into a bowl.\r\nPour the custard over the prepared bread layers and sprinkle with nutmeg and the remaining sugar and leave to stand for 30 minutes.\r\nPreheat the oven to 180C/355F/Gas 4.\r\nPlace the dish into the oven and bake for 30-40 minutes, or until the custard has set and the top is golden-brown.",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xqwwpy1483908697.jpg",
-        "strTags": "Pudding,Brunch",
-        "strYoutube": "https://www.youtube.com/watch?v=Vz5W1-BmOE4",
-        "ingredients": [
-            {"name": "butter", "measurement": "25g/1oz"},
-            {"name": "bread", "measurement": "8 thin slices"},
-            {"name": "sultanas", "measurement": "50g/2oz"},
-            {"name": "cinnamon", "measurement": "2 tsp"},
-            {"name": "milk", "measurement": "350ml/12fl"},
-            {"name": "double cream", "measurement": "50ml/2fl oz"},
-            {"name": "eggs", "measurement": "2 free-range"},
-            {"name": "sugar", "measurement": "25g/1oz"},
-            {"name": "nutmeg", "measurement": "grated, to taste"}
-        ]
-    } ,
-    {
-        "idMeal": "52807",
-        "strMeal": "Baingan Bharta",
-        "strDrinkAlternate": null,
-        "strCategory": "Vegetarian",
-        "strArea": "Indian",
-        "strInstructions": "Rinse the baingan (eggplant or aubergine) in water. Pat dry with a kitchen napkin. Apply some oil all over and\r\nkeep it for roasting on an open flame. You can also grill the baingan or roast in the oven. But then you won't get\r\nthe smoky flavor of the baingan. Keep the eggplant turning after a 2 to 3 minutes on the flame, so that its evenly\r\ncooked. You could also embed some garlic cloves in the baingan and then roast it.\r\n2. Roast the aubergine till its completely cooked and tender. With a knife check the doneness. The knife should slid\r\neasily in aubergines without any resistance. Remove the baingan and immerse in a bowl of water till it cools\r\ndown.\r\n3. You can also do the dhungar technique of infusing charcoal smoky flavor in the baingan. This is an optional step.\r\nUse natural charcoal for this method. Heat a small piece of charcoal on flame till it becomes smoking hot and red.\r\n4. Make small cuts on the baingan with a knife. Place the red hot charcoal in the same plate where the roasted\r\naubergine is kept. Add a few drops of oil on the charcoal. The charcoal would begin to smoke.\r\n5. As soon as smoke begins to release from the charcoal, cover the entire plate tightly with a large bowl. Allow the\r\ncharcoal smoke to get infused for 1 to 2 minutes. The more you do, the more smoky the baingan bharta will\r\nbecome. I just keep for a minute. Alternatively, you can also do this dhungar method once the baingan bharta is\r\ncooked, just like the way we do for Dal Tadka.\r\n6. Peel the skin from the roasted and smoked eggplant.\r\n7. Chop the cooked eggplant finely or you can even mash it.\r\n8. In a kadai or pan, heat oil. Then add finely chopped onions and garlic.\r\n9. Saute the onions till translucent. Don't brown them.\r\n10. Add chopped green chilies and saute for a minute.\r\n11. Add the chopped tomatoes and mix it well.\r\n12. Bhuno (saute) the tomatoes till the oil starts separating from the mixture.\r\n13. Now add the red chili powder. Stir and mix well.\r\n14. Add the chopped cooked baingan.\r\n15. Stir and mix the chopped baingan very well with the onion­tomato masala mixture.\r\n16. Season with salt. Stir and saute for some more 4 to 5 minutes more.\r\n17. Finally stir in the coriander leaves with the baingan bharta or garnish it with them. Serve Baingan Bharta with\r\nphulkas, rotis or chapatis. It goes well even with bread, toasted or grilled bread and plain rice or jeera rice.",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/urtpqw1487341253.jpg",
-        "strTags": "Spicy,Bun,Calorific",
-        "strYoutube": "https://www.youtube.com/watch?v=-84Zz2EP4h4",
-        "ingredients": [
-            {"name": "Aubergine", "measurement": "1 large"},
-            {"name": "Onion", "measurement": "½ cup "},
-            {"name": "Tomatoes", "measurement": "1 cup"},
-            {"name": "Garlic", "measurement": "6 cloves"},
-            {"name": "Green Chili", "measurement": "1"},
-            {"name": "Red Chili Powder", "measurement": "¼ teaspoon"},
-            {"name": "Oil", "measurement": "1.5 tablespoon"},
-            {"name": "Coriander Leaves", "measurement": "1 tablespoon chopped"},
-            {"name": "Salt", "measurement": "as required"}
-        ]
+      "idMeal": "53028",
+      "strMeal": "Shawarma",
+      "strDrinkAlternate": null,
+      "strCategory": "Chicken",
+      "strArea": "Egyptian",
+      "strInstructions": "Combine the marinade ingredients in a large ziplock bag (or bowl).\r\nAdd the chicken and use your hands to make sure each piece is coated. If using a ziplock bag, I find it convenient to close the bag then massage the bag to disperse the rub all over each chicken piece.\r\nMarinate overnight or up to 24 hours.\r\nCombine the Yoghurt Sauce ingredients in a bowl and mix. Cover and put in the fridge until required (it will last for 3 days in the fridge).\r\nHeat grill/BBQ (or large heavy based pan on stove) on medium high. You should not need to oil it because the marinade has oil in it and also thigh fillets have fat. But if you are worried then oil your hotplate/grill. (See notes for baking)\r\nPlace chicken on the grill and cook the first side for 4 to 5 minutes until nicely charred, then turn and cook the other side for 3 to 4 minutes (the 2nd side takes less time).\r\nRemove chicken from the grill and cover loosely with foil. Set aside to rest for 5 minutes.\r\nTO SERVE\r\nSlice chicken and pile onto platter alongside flatbreads, Salad and the Yoghurt Sauce.\r\nTo make a wrap, get a piece of flatbread and smear with Yoghurt Sauce. Top with a bit of lettuce and tomato and Chicken Shawarma. Roll up and enjoy!",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/kcv6hj1598733479.jpg",
+      "strTags": null,
+      "strYoutube": "https://www.youtube.com/watch?v=3lxUIeKDgic",
+      "ingredients": [
+        {"name": "Chicken Thighs","measurement": "1 kg" },
+        {"name": "Coriander", "measurement": "1 tbs"},
+        { "name": "Cumin", "measurement": "1 tbs" },
+        {
+          "name": "Cardamom",
+          "measurement": "1 tbs"
+        },
+        {
+          "name": "Cayenne Pepper",
+          "measurement": "1 tsp"
+        },
+        {
+          "name": "Paprika",
+          "measurement": "2 tsp"
+        },
+        {
+          "name": "Lemon Juice",
+          "measurement": "2 tbs"
+        },
+        {
+          "name": "Olive Oil",
+          "measurement": "3 tbs"
+        },
+        {
+          "name": "Greek Yogurt",
+          "measurement": "1 cup"
+        },
+        {
+          "name": "Garlic Clove",
+          "measurement": "1"
+        },
+        {
+          "name": "Cumin",
+          "measurement": "1 tsp"
+        },
+        {
+          "name": "Lemon Juice",
+          "measurement": "Splash"
+        },
+        {
+          "name": "Lettuce",
+          "measurement": "Sliced"
+        },
+        {
+          "name": "Tomato",
+          "measurement": "Sliced"
+        },
+        {
+          "name": "Pita Bread",
+          "measurement": "6"
+        }
+      ],
+      "isFav":"false",
+      "strSource": "https://www.recipetineats.com/chicken-sharwama-middle-eastern/"
     },
     {
-        "idMeal": "52776",
-        "strMeal": "Chocolate Gateau",
-        "strDrinkAlternate": null,
-        "strCategory": "Dessert",
-        "strArea": "French",
-        "strInstructions": "Preheat the oven to 180°C/350°F/Gas Mark 4. Grease and line the base of an 8 in round spring form cake tin with baking parchment\r\nBreak the chocolate into a heatproof bowl and place over a saucepan of gently simmering water and stir until it melts. (or melt in the microwave for 2-3 mins stirring occasionally)\r\nPlace the butter and sugar in a mixing bowl and cream together with a wooden spoon until light and fluffy. Gradually beat in the eggs, adding a little flour if the mixture begins to curdle. Fold in the remaining flour with the cooled, melted chocolate and milk. Mix until smooth.\r\nSpread the mixture into the cake tin and bake for 50-55 mins or until firm in the centre and a skewer comes out cleanly. Cool for 10 minutes, then turn out and cool completely.",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg",
-        "strTags": "Cake,Chocolate,Desert,Pudding",
-        "strYoutube": "https://www.youtube.com/watch?v=dsJtgmAhFF4",
-        "ingredients": [
-            {"name": "Plain chocolate", "measurement": "250g"},
-            {"name": "Butter", "measurement": "175g"},
-            {"name": "Milk", "measurement": "2 tablespoons"},
-            {"name": "Eggs", "measurement": "5"},
-            {"name": "Granulated Sugar", "measurement": "175g"},
-            {"name": "Flour", "measurement": "125g"}
-        ]
+      "idMeal": "53027",
+      "strMeal": "Koshari",
+      "strDrinkAlternate": null,
+      "strCategory": "Vegetarian",
+      "strArea": "Egyptian",
+      "strInstructions": "Cook the lentils. Bring lentils and 4 cups of water to a boil in a medium pot or saucepan over high heat. Reduce the heat to low and cook until lentils are just tender (15-17 minutes). Drain from water and season with a little salt. (Note: when the lentils are ready, they should not be fully cooked. They should be only par-cooked and still have a bite to them as they need to finish cooking with the rice).\r\nNow, for the rice. Drain the rice from its soaking water. Combine the par-cooked lentils and the rice in the saucepan over medium-high heat with 1 tbsp cooking oil, salt, pepper, and coriander. Cook for 3 minutes, stirring regularly. Add warm water to cover the rice and lentil mixture by about 1 1/2 inches (you’ll probably use about 3 cups of water here). Bring to a boil; the water should reduce a bit. Now cover and cook until all the liquid has been absorbed and both the rice and lentils are well cooked through (about 20 minutes).  Keep covered and undisturbed for 5 minutes or so.\r\nNow make the pasta. While the rice and lentils are cooking, make the pasta according to package instructions by adding the elbow pasta to boiling water with a dash of salt and a little oil. Cook until the pasta is al dente. Drain.\r\nCover the chickpeas and warm in the microwave briefly before serving.\r\n\r\nMake the crispy onion topping. \r\n\r\nSprinkle the onion rings with salt, then toss them in the flour to coat. Shake off excess flour.\r\nIn a large skillet, heat the cooking oil over medium-high heat, cook the onion rings, stirring often, until they turn a nice caramelized brown. Onions must be crispy, but not burned (15-20 minutes).",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/4er7mj1598733193.jpg",
+      "strTags": null,
+      "strYoutube": "https://www.youtube.com/watch?v=y0d2ZMZBW4Y",
+      "ingredients": [
+        {
+          "name": "Brown Lentils",
+          "measurement": "1 1/2 cups"
+        },
+        {
+          "name": "Rice",
+          "measurement": "1 1/2 cups"
+        },
+        {
+          "name": "Coriander",
+          "measurement": "1/2 tsp"
+        },
+        {
+          "name": "Macaroni",
+          "measurement": "2 cups"
+        },
+        {
+          "name": "Chickpeas",
+          "measurement": "Can"
+        },
+        {
+          "name": "Onion",
+          "measurement": "1 large"
+        },
+        {
+          "name": "Salt",
+          "measurement": "Sprinking"
+        },
+        {
+          "name": "Vegetable Oil",
+          "measurement": "1/2 cup"
+        }
+      ],     
+       "isFav":"false",
+      "strSource": "https://www.themediterraneandish.com/egyptian-koshari-recipe/"
     },
     {
-        "idMeal": "52765",
-        "strMeal": "Chicken Enchilada Casserole",
-        "strDrinkAlternate": null,
-        "strCategory": "Chicken",
-        "strArea": "Mexican",
-        "strInstructions": "Cut each chicken breast in about 3 pieces, so that it cooks faster and put it in a small pot. Pour Enchilada sauce over it and cook covered on low to medium heat until chicken is cooked through, about 20 minutes. No water is needed, the chicken will cook in the Enchilada sauce. Make sure you stir occasionally so that it doesn't stick to the bottom.\r\nRemove chicken from the pot and shred with two forks.\r\nPreheat oven to 375 F degrees.\r\nStart layering the casserole. Start with about ¼ cup of the leftover Enchilada sauce over the bottom of a baking dish. I used a longer baking dish, so that I can put 2 corn tortillas across. Place 2 tortillas on the bottom, top with ⅓ of the chicken and ⅓ of the remaining sauce. Sprinkle with ⅓ of the cheese and repeat starting with 2 more tortillas, then chicken, sauce, cheese. Repeat with last layer with the remaining ingredients, tortillas, chicken, sauce and cheese.\r\nBake for 20 to 30 minutes uncovered, until bubbly and cheese has melted and started to brown on top.\r\nServe warm.",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/qtuwxu1468233098.jpg",
-        "strTags": "Casserole,Cheasy,Meat",
-        "strYoutube": "https://www.youtube.com/watch?v=EtVkwVKLc_M",
-        "ingredients": [
-            {"name": "Enchilada sauce", "measurement": "14 oz jar"},
-            {"name": "shredded Monterey Jack cheese", "measurement": "3 Cups"},
-            {"name": "corn tortillas", "measurement": "6"},
-            {"name": "chicken breasts", "measurement": "2"}
-        ]
+      "idMeal": "53030",
+      "strMeal": "Feteer Meshaltet",
+      "strDrinkAlternate": null,
+      "strCategory": "Side",
+      "strArea": "Egyptian",
+      "strInstructions": "Mix the flour and salt then pour one cup of water and start kneading.\r\nIf you feel the dough is still not coming together or too dry, gradually add the remaining water until you get a dough that is very elastic so that when you pull it and it won’t be torn.\r\nLet the dough rest for just 10 minutes then divide the dough into 6-8 balls depending on the size you want for your feteer.\r\nWarm up the butter/ghee or oil you are using and pour into a deep bowl.\r\nImmerse the dough balls into the warm butter. Let it rest for 15 to 20 minutes.\r\nPreheat oven to 550F.\r\nStretch the first ball with your hands on a clean countertop. Stretch it as thin as you can, the goal here is to see your countertop through the dough.\r\nFold the dough over itself to form a square brushing in between folds with the butter mixture.\r\nSet aside and start making the next ball.\r\nStretch the second one thin as we have done for the first ball.\r\nPlace the previous one on the middle seam side down. Fold the outer one over brushing with more butter mixture as you fold. Set aside.\r\nKeep doing this for the third and fourth balls. Now we have one ready, place on a 10 inch baking/pie dish seam side down and brush the top with more butter.\r\nRepeat for the remaining 4 balls to make a second one. With your hands lightly press the folded feteer to spread it on the baking dish.\r\nPlace in preheated oven for 10 minutes when the feteer starts puffing turn on the broiler to brown the top.\r\nWhen it is done add little butter on top and cover so it won’t get dry.",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/9f4z6v1598734293.jpg",
+      "strTags": null,
+      "strYoutube": "https://www.youtube.com/watch?v=-mW1unsVhFU",
+      "ingredients": [
+        {
+          "name": "Flour",
+          "measurement": "4 cups"
+        },
+        {
+          "name": "Water",
+          "measurement": "1 1/2 cups"
+        },
+        {
+          "name": "Salt",
+          "measurement": "1/4 tsp"
+        },
+        {
+          "name": "Unsalted Butter",
+          "measurement": "1 cup"
+        },
+        {
+          "name": "Olive Oil",
+          "measurement": "1/4 cup"
+        }
+      ],
+      "isFav":"false",
+      "strSource": "https://amiraspantry.com/egyptian-feteer-meshaltet/"
     },
     {
-        "idMeal": "52779",
-        "strMeal": "Cream Cheese Tart",
-        "strDrinkAlternate": null,
-        "strCategory": "Starter",
-        "strArea": "Unknown",
-        "strInstructions": "Crust: make a dough from 250g flour (I like mixing different flours like plain and wholegrain spelt flour), 125g butter, 1 egg and a pinch of salt, press it into a tart form and place it in the fridge. Filling: stir 300g cream cheese and 100ml milk until smooth, add in 3 eggs, 100g grated parmesan cheese and season with salt, pepper and nutmeg. Take the crust out of the fridge and prick the bottom with a fork. Pour in the filling and bake at 175 degrees C for about 25 minutes. Cover the tart with some aluminium foil after half the time. In the mean time, slice about 350g mini tomatoes. In a small pan heat 3tbsp olive oil, 3tbsp white vinegar, 1 tbsp honey, salt and pepper and combine well. Pour over the tomato slices and mix well. With a spoon, place the tomato slices on the tart, avoiding too much liquid on it. Decorate with basil leaves and enjoy",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wurrux1468416624.jpg",
-        "strTags": "Tart,Savory",
-        "strYoutube": "https://www.youtube.com/watch?v=UhQPwO4uymo",
-        "ingredients": [
-            {"name": "Flour", "measurement": "250g"},
-            {"name": "Butter", "measurement": "125g"},
-            {"name": "Egg", "measurement": "1"},
-            {"name": "Salt", "measurement": "Pinch"},
-            {"name": "Cheese", "measurement": "300g"},
-            {"name": "Milk", "measurement": "100ml"},
-            {"name": "Eggs", "measurement": "3"},
-            {"name": "Parmesan Cheese", "measurement": "100g"},
-            {"name": "Plum tomatoes", "measurement": "350g"},
-            {"name": "White Vinegar", "measurement": "3tbsp"},
-            {"name": "Honey", "measurement": "1 tbsp"},
-            {"name": "Basil", "measurement": "Topping"}
-        ]
+      "idMeal": "53031",
+      "strMeal": "Egyptian Fatteh",
+      "strDrinkAlternate": null,
+      "strCategory": "Beef",
+      "strArea": "Egyptian",
+      "strInstructions": "To prepare bread for bottom of dish: Take pita bread and rip into bite size pieces. In a frying pan, add about a 1/4 stick of butter, add bread pieces and fry until golden brown and crisp. Put these pieces in a glass baking dish, preferably a square sized dish. Set aside.\r\nThen add to same pan, a little more butter, salt, approximately 2 cloves of crushed fresh garlic, and a teaspoon or so of cumin stir around a bit until you can smell aroma, then add fried bread pieces to this mixture, stir to coat bread and put back into glass baking dish. Set aside.\r\nTo prepare meat: put some butter in a pot, stir fry meat until brown, add 1 onion quartered, salt & pepper, 1 cube of chicken bouillon and water to cover meat. Bring to a boil, turn down to simmer, cover and cook until tender, approximately 2 hours. After meat has cooled, take out chunks of meat and put in a bowl, set aside. Reserve soup from the meat separately.\r\nTo prepare the rice: Put some butter into a pot, add shareya (fideo noodles) like a handful or so, keep stirring until golden brown, not too dark, but very golden. Then add two cups of rice, stir a little bit until some of the rice turns an opaque white. Add 2-1/4 cups of water and salt to taste. Bring to a boil, cover and turn down to simmer, cook until tender. Test the rice tenderness after about 35 minutes.\r\nNow take some of the soup from meat and add to the top of the bread pieces in baking dish to saturate.Add cooked rice on top of bread pieces. Slowly spoon remainder of soup onto rice, looking at glass dish sides to see level of soup, should reach just to top of rice, don’t worry, this doesn’t have to be exact. Now you’re ready to make the sauce and fry the meat to put on top.\r\nTo prepare red sauce: In a pan, add a little oil or butter, crushed tomato, a half teaspoon of tomato paste, salt & pepper, 2 cloves of fresh crushed garlic and cumin. Add also approximately 3 tablespoons of vinegar, stir this until you smell aroma and it is a bit smooth. It should be a bit thick, not watery, but if too thick you can add a bit of water. Spread with a wooden spoon atop the rice to cover.\r\nTo fry meat: In a pan add a bit of butter or oil, the meat, just a touch of tomato paste, about a tablespoon of fresh crushed garlic, salt & pepper, a teaspoon of cumin. Cook until meat is golden fried.\r\nSpoon this atop the rice and serve. Enjoy!",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/rlwcc51598734603.jpg",
+      "strTags": null,
+      "strYoutube": "https://www.youtube.com/watch?v=WLuOHkDE4A4",
+      "ingredients": [
+        {
+          "name": "Beef",
+          "measurement": "1lb"
+        },
+        {
+          "name": "Onion",
+          "measurement": "1"
+        },
+        {
+          "name": "Chicken Stock Cube",
+          "measurement": "1"
+        },
+        {
+          "name": "Tomatoes",
+          "measurement": "2"
+        },
+        {
+          "name": "Garlic Clove",
+          "measurement": "4"
+        },
+        {
+          "name": "Tomato Puree",
+          "measurement": "1 tbs"
+        },
+        {
+          "name": "Rice",
+          "measurement": "2 cups"
+        },
+        {
+          "name": "Noodles",
+          "measurement": "1/4 cup"
+        },
+        {
+          "name": "Butter",
+          "measurement": "1/4 cup"
+        },
+        {
+          "name": "Olive Oil",
+          "measurement": "2 cups"
+        },
+        {
+          "name": "Pita Bread",
+          "measurement": "1"
+        },
+        {
+          "name": "Cumin",
+          "measurement": "1 tbs"
+        },
+        {
+          "name": "White Wine Vinegar",
+          "measurement": "3 tbs"
+        },
+        {
+          "name": "Salt",
+          "measurement": "To taste"
+        },
+        {
+          "name": "Pepper",
+          "measurement": "To taste"
+        }
+      ],
+      "isFav":"false"
+
+    },
+    {
+      "idMeal": "52768",
+      "strMeal": "Apple Frangipan Tart",
+      "strDrinkAlternate": null,
+      "strCategory": "Dessert",
+      "strArea": "British",
+      "strInstructions": "Preheat the oven to 200C/180C Fan/Gas 6.\r\nPut the biscuits in a large re-sealable freezer bag and bash with a rolling pin into fine crumbs. Melt the butter in a small pan, then add the biscuit crumbs and stir until coated with butter. Tip into the tart tin and, using the back of a spoon, press over the base and sides of the tin to give an even layer. Chill in the fridge while you make the filling.\r\nCream together the butter and sugar until light and fluffy. You can do this in a food processor if you have one. Process for 2-3 minutes. Mix in the eggs, then add the ground almonds and almond extract and blend until well combined.\r\nPeel the apples, and cut thin slices of apple. Do this at the last minute to prevent the apple going brown. Arrange the slices over the biscuit base. Spread the frangipane filling evenly on top. Level the surface and sprinkle with the flaked almonds.\r\nBake for 20-25 minutes until golden-brown and set.\r\nRemove from the oven and leave to cool for 15 minutes. Remove the sides of the tin. An easy way to do this is to stand the tin on a can of beans and push down gently on the edges of the tin.\r\nTransfer the tart, with the tin base attached, to a serving plate. Serve warm with cream, crème fraiche or ice cream.",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg",
+      "strTags": "Tart,Baking,Fruity",
+      "strYoutube": "https://www.youtube.com/watch?v=rp8Slv4INLk",
+      "ingredients": [
+        {
+          "name": "digestive biscuits",
+          "measurement": "175g/6oz"
+        },
+        {
+          "name": "butter",
+          "measurement": "75g/3oz"
+        },
+        {
+          "name": "Bramley apples",
+          "measurement": "200g/7oz"
+        },
+        {
+          "name": "butter, softened",
+          "measurement": "75g/3oz"
+        },
+        {
+          "name": "caster sugar",
+          "measurement": "75g/3oz"
+        },
+        {
+          "name": "free-range eggs, beaten",
+          "measurement": "2"
+        },
+        {
+          "name": "ground almonds",
+          "measurement": "75g/3oz"
+        },
+        {
+          "name": "almond extract",
+          "measurement": "1 tsp"
+        },
+        {
+          "name": "flaked almonds",
+          "measurement": "50g/1¾oz"
+        }
+      ]
+    },
+    {
+      "idMeal": "52893",
+      "strMeal": "Apple & Blackberry Crumble",
+      "strDrinkAlternate": null,
+      "strCategory": "Dessert",
+      "strArea": "British",
+      "strInstructions": "Heat oven to 190C/170C fan/gas 5. Tip the flour and sugar into a large bowl. Add the butter, then rub into the flour using your fingertips to make a light breadcrumb texture. Do not overwork it or the crumble will become heavy. Sprinkle the mixture evenly over a baking sheet and bake for 15 mins or until lightly coloured.\r\nMeanwhile, for the compote, peel, core and cut the apples into 2cm dice. Put the butter and sugar in a medium saucepan and melt together over a medium heat. Cook for 3 mins until the mixture turns to a light caramel. Stir in the apples and cook for 3 mins. Add the blackberries and cinnamon, and cook for 3 mins more. Cover, remove from the heat, then leave for 2-3 mins to continue cooking in the warmth of the pan.\r\nTo serve, spoon the warm fruit into an ovenproof gratin dish, top with the crumble mix, then reheat in the oven for 5-10 mins. Serve with vanilla ice cream.",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/xvsurr1511719182.jpg",
+      "strTags": "Pudding",
+      "strYoutube": "https://www.youtube.com/watch?v=4vhcOwVBDO4",
+      "ingredients": [
+        {
+          "name": "Plain Flour",
+          "measurement": "120g"
+        },
+        {
+          "name": "Caster Sugar",
+          "measurement": "60g"
+        },
+        {
+          "name": "Butter",
+          "measurement": "60g"
+        },
+        {
+          "name": "Braeburn Apples",
+          "measurement": "300g"
+        },
+        {
+          "name": "Butter",
+          "measurement": "30g"
+        },
+        {
+          "name": "Demerara Sugar",
+          "measurement": "30g"
+        },
+        {
+          "name": "Blackberries",
+          "measurement": "120g"
+        },
+        {
+          "name": "Cinnamon",
+          "measurement": "¼ teaspoon"
+        },
+        {
+          "name": "Ice Cream",
+          "measurement": "to serve"
+        }
+      ],    
+        "isFav":"false"
+
+    },
+    {
+      "idMeal": "53049",
+      "strMeal": "Apam balik",
+      "strDrinkAlternate": null,
+      "strCategory": "Dessert",
+      "strArea": "Malaysian",
+      "strInstructions": "Mix milk, oil and egg together. Sift flour, baking powder and salt into the mixture. Stir well until all ingredients are combined evenly.\r\n\r\nSpread some batter onto the pan. Spread a thin layer of batter to the side of the pan. Cover the pan for 30-60 seconds until small air bubbles appear.\r\n\r\nAdd butter, cream corn, crushed peanuts and sugar onto the pancake. Fold the pancake into half once the bottom surface is browned.\r\n\r\nCut into wedges and best eaten when it is warm.",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/adxcbq1619787919.jpg",
+      "strTags": null,
+      "strYoutube": "https://www.youtube.com/watch?v=6R8ffRRJcrg",
+      "ingredients": [
+        {
+          "name": "Milk",
+          "measurement": "200ml"
+        },
+        {
+          "name": "Oil",
+          "measurement": "60ml"
+        },
+        {
+          "name": "Eggs",
+          "measurement": "2"
+        },
+        {
+          "name": "Flour",
+          "measurement": "1600g"
+        },
+        {
+          "name": "Baking Powder",
+          "measurement": "3 tsp"
+        },
+        {
+          "name": "Salt",
+          "measurement": "1/2 tsp"
+        },
+        {
+          "name": "Unsalted Butter",
+          "measurement": "25g"
+        },
+        {
+          "name": "Sugar",
+          "measurement": "45g"
+        },
+        {
+          "name": "Peanut Butter",
+          "measurement": "3 tbs"
+        }
+      ],
+      "isFav":"false"
+
+    },
+    {
+      "idMeal": "53050",
+      "strMeal": "Ayam Percik",
+      "strDrinkAlternate": null,
+      "strCategory": "Chicken",
+      "strArea": "Malaysian",
+      "strInstructions": "In a blender, add the ingredients for the spice paste and blend until smooth.\r\nOver medium heat, pour the spice paste in a skillet or pan and fry for 10 minutes until fragrant. Add water or oil 1 tablespoon at a time if the paste becomes too dry. Don't burn the paste. Lower the fire slightly if needed.\r\nAdd the cloves, cardamom, tamarind pulp, coconut milk, water, sugar and salt. Turn the heat up and bring the mixture to boil. Turn the heat to medium low and simmer for 10 minutes. Stir occasionally. It will reduce slightly. This is the marinade/sauce, so taste and adjust seasoning if necessary. Don't worry if it's slightly bitter. It will go away when roasting.\r\nWhen the marinade/sauce has cooled, pour everything over the chicken and marinate overnight to two days.\r\nPreheat the oven to 425 F.\r\nRemove the chicken from the marinade. Spoon the marinade onto a greased (or aluminum lined) baking sheet. Lay the chicken on top of the sauce (make sure the chicken covers the sauce and the sauce isn't exposed or it'll burn) and spread the remaining marinade on the chicken. Roast for 35-45 minutes or until internal temp of the thickest part of chicken is at least 175 F.\r\nLet chicken rest for 5 minutes. Brush the chicken with some of the oil. Serve chicken with the sauce over steamed rice (or coconut rice).",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/020z181619788503.jpg",
+      "strTags": null,
+      "strYoutube": "https://www.youtube.com/watch?v=9ytR28QK6I8",
+      "ingredients": [
+        {
+          "name": "Chicken Thighs",
+          "measurement": "6"
+        },
+        {
+          "name": "Challots",
+          "measurement": "16"
+        },
+        {
+          "name": "Ginger",
+          "measurement": "1 1/2 "
+        },
+        {
+          "name": "Garlic Clove",
+          "measurement": "6"
+        },
+        {
+          "name": "Cayenne Pepper",
+          "measurement": "8"
+        },
+        {
+          "name": "Turmeric",
+          "measurement": "2 tbs"
+        },
+        {
+          "name": "Cumin",
+          "measurement": "1 1/2 "
+        },
+        {
+          "name": "Coriander",
+          "measurement": "1 1/2 "
+        },
+        {
+          "name": "Fennel",
+          "measurement": "1 1/2 "
+        },
+        {
+          "name": "Tamarind Paste",
+          "measurement": "2 tbs"
+        },
+        {
+          "name": "Coconut Milk",
+          "measurement": "1 can "
+        },
+        {
+          "name": "Sugar",
+          "measurement": "1 tsp "
+        },
+        {
+          "name": "Water",
+          "measurement": "1 cup "
+        }
+      ],
+      "isFav":"false",
+      "strSource": "http://www.curiousnut.com/roasted-spiced-chicken-ayam-percik/",
+      "strImageSource": null,
+      "strCreativeCommonsConfirmed": null,
+      "dateModified": null
+    },
+    {
+      "idMeal": "52767",
+      "strMeal": "Bakewell tart",
+      "strDrinkAlternate": null,
+      "strCategory": "Dessert",
+      "strArea": "British",
+      "strInstructions": "To make the pastry, measure the flour into a bowl and rub in the butter with your fingertips until the mixture resembles fine breadcrumbs. Add the water, mixing to form a soft dough.\r\nRoll out the dough on a lightly floured work surface and use to line a 20cm/8in flan tin. Leave in the fridge to chill for 30 minutes.\r\nPreheat the oven to 200C/400F/Gas 6 (180C fan).\r\nLine the pastry case with foil and fill with baking beans. Bake blind for about 15 minutes, then remove the beans and foil and cook for a further five minutes to dry out the base.\r\nFor the filing, spread the base of the flan generously with raspberry jam.\r\nMelt the butter in a pan, take off the heat and then stir in the sugar. Add ground almonds, egg and almond extract. Pour into the flan tin and sprinkle over the flaked almonds.\r\nBake for about 35 minutes. If the almonds seem to be browning too quickly, cover the tart loosely with foil to prevent them burning.",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/wyrqqq1468233628.jpg",
+      "strTags": "Tart,Baking,Alcoholic",
+      "strYoutube": "https://www.youtube.com/watch?v=1ahpSTf_Pvk",
+      "ingredients": [
+        {
+          "name": "plain flour",
+          "measurement": "175g/6oz"
+        },
+        {
+          "name": "chilled butter",
+          "measurement": "75g/2½oz"
+        },
+        {
+          "name": "cold water",
+          "measurement": "2-3 tbsp"
+        },
+        {
+          "name": "raspberry jam",
+          "measurement": "1 tbsp"
+        },
+        {
+          "name": "butter",
+          "measurement": "125g/4½oz"
+        },
+        {
+          "name": "caster sugar",
+          "measurement": "125g/4½oz"
+        },
+        {
+          "name": "ground almonds",
+          "measurement": "125g/4½oz"
+        },
+        {
+          "name": "free-range egg, beaten",
+          "measurement": "1"
+        },
+        {
+          "name": "almond extract",
+          "measurement": "½ tsp"
+        },
+        {
+          "name": "flaked almonds",
+          "measurement": "50g/1¾oz"
+        }
+      ],
+      "isFav":"false"
+    },
+    {
+      "idMeal": "52792",
+      "strMeal": "Bread and Butter Pudding",
+      "strDrinkAlternate": null,
+      "strCategory": "Dessert",
+      "strArea": "British",
+      "strInstructions": "Grease a 1 litre/2 pint pie dish with butter.\r\nCut the crusts off the bread. Spread each slice with on one side with butter, then cut into triangles.\r\nArrange a layer of bread, buttered-side up, in the bottom of the dish, then add a layer of sultanas. Sprinkle with a little cinnamon, then repeat the layers of bread and sultanas, sprinkling with cinnamon, until you have used up all of the bread. Finish with a layer of bread, then set aside.\r\nGently warm the milk and cream in a pan over a low heat to scalding point. Don't let it boil.\r\nCrack the eggs into a bowl, add three quarters of the sugar and lightly whisk until pale.\r\nAdd the warm milk and cream mixture and stir well, then strain the custard into a bowl.\r\nPour the custard over the prepared bread layers and sprinkle with nutmeg and the remaining sugar and leave to stand for 30 minutes.\r\nPreheat the oven to 180C/355F/Gas 4.\r\nPlace the dish into the oven and bake for 30-40 minutes, or until the custard has set and the top is golden-brown.",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/xqwwpy1483908697.jpg",
+      "strTags": "Pudding,Brunch",
+      "strYoutube": "https://www.youtube.com/watch?v=Vz5W1-BmOE4",
+      "ingredients": [
+        {
+          "name": "butter",
+          "measurement": "25g/1oz"
+        },
+        {
+          "name": "bread",
+          "measurement": "8 thin slices"
+        },
+        {
+          "name": "sultanas",
+          "measurement": "50g/2oz"
+        },
+        {
+          "name": "cinnamon",
+          "measurement": "2 tsp"
+        },
+        {
+          "name": "milk",
+          "measurement": "350ml/12fl"
+        },
+        {
+          "name": "double cream",
+          "measurement": "50ml/2fl oz"
+        },
+        {
+          "name": "eggs",
+          "measurement": "2 free-range"
+        },
+        {
+          "name": "sugar",
+          "measurement": "25g/1oz"
+        },
+        {
+          "name": "nutmeg",
+          "measurement": "grated, to taste"
+        }
+      ],
+      "isFav":"false"
+    },
+    {
+      "idMeal": "52807",
+      "strMeal": "Baingan Bharta",
+      "strDrinkAlternate": null,
+      "strCategory": "Vegetarian",
+      "strArea": "Indian",
+      "strInstructions": "Rinse the baingan (eggplant or aubergine) in water. Pat dry with a kitchen napkin. Apply some oil all over and\r\nkeep it for roasting on an open flame. You can also grill the baingan or roast in the oven. But then you won't get\r\nthe smoky flavor of the baingan. Keep the eggplant turning after a 2 to 3 minutes on the flame, so that its evenly\r\ncooked. You could also embed some garlic cloves in the baingan and then roast it.\r\n2. Roast the aubergine till its completely cooked and tender. With a knife check the doneness. The knife should slid\r\neasily in aubergines without any resistance. Remove the baingan and immerse in a bowl of water till it cools\r\ndown.\r\n3. You can also do the dhungar technique of infusing charcoal smoky flavor in the baingan. This is an optional step.\r\nUse natural charcoal for this method. Heat a small piece of charcoal on flame till it becomes smoking hot and red.\r\n4. Make small cuts on the baingan with a knife. Place the red hot charcoal in the same plate where the roasted\r\naubergine is kept. Add a few drops of oil on the charcoal. The charcoal would begin to smoke.\r\n5. As soon as smoke begins to release from the charcoal, cover the entire plate tightly with a large bowl. Allow the\r\ncharcoal smoke to get infused for 1 to 2 minutes. The more you do, the more smoky the baingan bharta will\r\nbecome. I just keep for a minute. Alternatively, you can also do this dhungar method once the baingan bharta is\r\ncooked, just like the way we do for Dal Tadka.\r\n6. Peel the skin from the roasted and smoked eggplant.\r\n7. Chop the cooked eggplant finely or you can even mash it.\r\n8. In a kadai or pan, heat oil. Then add finely chopped onions and garlic.\r\n9. Saute the onions till translucent. Don't brown them.\r\n10. Add chopped green chilies and saute for a minute.\r\n11. Add the chopped tomatoes and mix it well.\r\n12. Bhuno (saute) the tomatoes till the oil starts separating from the mixture.\r\n13. Now add the red chili powder. Stir and mix well.\r\n14. Add the chopped cooked baingan.\r\n15. Stir and mix the chopped baingan very well with the onion­tomato masala mixture.\r\n16. Season with salt. Stir and saute for some more 4 to 5 minutes more.\r\n17. Finally stir in the coriander leaves with the baingan bharta or garnish it with them. Serve Baingan Bharta with\r\nphulkas, rotis or chapatis. It goes well even with bread, toasted or grilled bread and plain rice or jeera rice.",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/urtpqw1487341253.jpg",
+      "strTags": "Spicy,Bun,Calorific",
+      "strYoutube": "https://www.youtube.com/watch?v=-84Zz2EP4h4",
+      "ingredients": [
+        {
+          "name": "Aubergine",
+          "measurement": "1 large"
+        },
+        {
+          "name": "Onion",
+          "measurement": "½ cup "
+        },
+        {
+          "name": "Tomatoes",
+          "measurement": "1 cup"
+        },
+        {
+          "name": "Garlic",
+          "measurement": "6 cloves"
+        },
+        {
+          "name": "Green Chili",
+          "measurement": "1"
+        },
+        {
+          "name": "Red Chili Powder",
+          "measurement": "¼ teaspoon"
+        },
+        {
+          "name": "Oil",
+          "measurement": "1.5 tablespoon"
+        },
+        {
+          "name": "Coriander Leaves",
+          "measurement": "1 tablespoon chopped"
+        },
+        {
+          "name": "Salt",
+          "measurement": "as required"
+        }
+      ],
+      "isFav":"false"
+    },
+    {
+      "idMeal": "52776",
+      "strMeal": "Chocolate Gateau",
+      "strDrinkAlternate": null,
+      "strCategory": "Dessert",
+      "strArea": "French",
+      "strInstructions": "Preheat the oven to 180°C/350°F/Gas Mark 4. Grease and line the base of an 8 in round spring form cake tin with baking parchment\r\nBreak the chocolate into a heatproof bowl and place over a saucepan of gently simmering water and stir until it melts. (or melt in the microwave for 2-3 mins stirring occasionally)\r\nPlace the butter and sugar in a mixing bowl and cream together with a wooden spoon until light and fluffy. Gradually beat in the eggs, adding a little flour if the mixture begins to curdle. Fold in the remaining flour with the cooled, melted chocolate and milk. Mix until smooth.\r\nSpread the mixture into the cake tin and bake for 50-55 mins or until firm in the centre and a skewer comes out cleanly. Cool for 10 minutes, then turn out and cool completely.",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg",
+      "strTags": "Cake,Chocolate,Desert,Pudding",
+      "strYoutube": "https://www.youtube.com/watch?v=dsJtgmAhFF4",
+      "ingredients": [
+        {
+          "name": "Plain chocolate",
+          "measurement": "250g"
+        },
+        {
+          "name": "Butter",
+          "measurement": "175g"
+        },
+        {
+          "name": "Milk",
+          "measurement": "2 tablespoons"
+        },
+        {
+          "name": "Eggs",
+          "measurement": "5"
+        },
+        {
+          "name": "Granulated Sugar",
+          "measurement": "175g"
+        },
+        {
+          "name": "Flour",
+          "measurement": "125g"
+        }
+      ],
+      "isFav":"false"
+    },
+    {
+      "idMeal": "52765",
+      "strMeal": "Chicken Enchilada Casserole",
+      "strDrinkAlternate": null,
+      "strCategory": "Chicken",
+      "strArea": "Mexican",
+      "strInstructions": "Cut each chicken breast in about 3 pieces, so that it cooks faster and put it in a small pot. Pour Enchilada sauce over it and cook covered on low to medium heat until chicken is cooked through, about 20 minutes. No water is needed, the chicken will cook in the Enchilada sauce. Make sure you stir occasionally so that it doesn't stick to the bottom.\r\nRemove chicken from the pot and shred with two forks.\r\nPreheat oven to 375 F degrees.\r\nStart layering the casserole. Start with about ¼ cup of the leftover Enchilada sauce over the bottom of a baking dish. I used a longer baking dish, so that I can put 2 corn tortillas across. Place 2 tortillas on the bottom, top with ⅓ of the chicken and ⅓ of the remaining sauce. Sprinkle with ⅓ of the cheese and repeat starting with 2 more tortillas, then chicken, sauce, cheese. Repeat with last layer with the remaining ingredients, tortillas, chicken, sauce and cheese.\r\nBake for 20 to 30 minutes uncovered, until bubbly and cheese has melted and started to brown on top.\r\nServe warm.",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/qtuwxu1468233098.jpg",
+      "strTags": "Casserole,Cheasy,Meat",
+      "strYoutube": "https://www.youtube.com/watch?v=EtVkwVKLc_M",
+      "ingredients": [
+        {
+          "name": "Enchilada sauce",
+          "measurement": "14 oz jar"
+        },
+        {
+          "name": "shredded Monterey Jack cheese",
+          "measurement": "3 Cups"
+        },
+        {
+          "name": "corn tortillas",
+          "measurement": "6"
+        },
+        {
+          "name": "chicken breasts",
+          "measurement": "2"
+        }
+      ],
+      "isFav":"false"
+    },
+    {
+      "idMeal": "52779",
+      "strMeal": "Cream Cheese Tart",
+      "strDrinkAlternate": null,
+      "strCategory": "Starter",
+      "strArea": "Unknown",
+      "strInstructions": "Crust: make a dough from 250g flour (I like mixing different flours like plain and wholegrain spelt flour), 125g butter, 1 egg and a pinch of salt, press it into a tart form and place it in the fridge. Filling: stir 300g cream cheese and 100ml milk until smooth, add in 3 eggs, 100g grated parmesan cheese and season with salt, pepper and nutmeg. Take the crust out of the fridge and prick the bottom with a fork. Pour in the filling and bake at 175 degrees C for about 25 minutes. Cover the tart with some aluminium foil after half the time. In the mean time, slice about 350g mini tomatoes. In a small pan heat 3tbsp olive oil, 3tbsp white vinegar, 1 tbsp honey, salt and pepper and combine well. Pour over the tomato slices and mix well. With a spoon, place the tomato slices on the tart, avoiding too much liquid on it. Decorate with basil leaves and enjoy",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/wurrux1468416624.jpg",
+      "strTags": "Tart,Savory",
+      "strYoutube": "https://www.youtube.com/watch?v=UhQPwO4uymo",
+      "ingredients": [
+        {
+          "name": "Flour",
+          "measurement": "250g"
+        },
+        {
+          "name": "Butter",
+          "measurement": "125g"
+        },
+        {
+          "name": "Egg",
+          "measurement": "1"
+        },
+        {
+          "name": "Salt",
+          "measurement": "Pinch"
+        },
+        {
+          "name": "Cheese",
+          "measurement": "300g"
+        },
+        {
+          "name": "Milk",
+          "measurement": "100ml"
+        },
+        {
+          "name": "Eggs",
+          "measurement": "3"
+        },
+        {
+          "name": "Parmesan Cheese",
+          "measurement": "100g"
+        },
+        {
+          "name": "Plum tomatoes",
+          "measurement": "350g"
+        },
+        {
+          "name": "White Vinegar",
+          "measurement": "3tbsp"
+        },
+        {
+          "name": "Honey",
+          "measurement": "1 tbsp"
+        },
+        {
+          "name": "Basil",
+          "measurement": "Topping"
+        }
+      ],
+      "isFav":"false"
     }
-    ]
+  ]
 }
-  

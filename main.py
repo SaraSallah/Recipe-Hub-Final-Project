@@ -1,16 +1,21 @@
 import flask 
-from flask import render_template , request,redirect, url_for
+from flask import render_template , request,redirect, url_for ,session
 import json
 import os
 
 app = flask.Flask("main")
+app.secret_key = 'Sara'
 
-@app.route("/")
+
+@app.route("/home")
 def home():
-   with open("recipes.json", "r") as json_file:
-       recipes_data = json.load(json_file)
-   return render_template("index.html", recipes=recipes_data["recipes"])
- 
+    if 'email' not in session:
+        return redirect('/')  
+    else:
+        with open("recipes.json", "r") as json_file:
+            recipes_data = json.load(json_file)
+            return render_template("index.html", recipes=recipes_data["recipes"])
+#=============================================================================================#
 
 @app.route("/signUp", methods=["POST", "GET"])
 def signUp():
@@ -35,14 +40,17 @@ def signUp():
         with open('users.json', 'w') as outfile:
             json.dump(data, outfile, indent=4)
 
-        return redirect(url_for('login'))
+        return redirect('/')
 
     return render_template('signUp.html', validation_message=validation_message)
+#=============================================================================================#
 
-
-@app.route("/login", methods=["POST", "GET"])
+@app.route("/", methods=["POST", "GET"])
 def login():
     validation_message = None
+
+    if 'email' in session:
+        return redirect(url_for('home'))
 
     if request.method == "POST":
         email = request.form['email']
@@ -53,18 +61,23 @@ def login():
 
         for user in data:
             if user['email'] == email and user['pass'] == password:
-                return redirect('/') 
+                session['email'] = email 
+                return redirect(url_for('home')) 
 
         validation_message = 'Invalid email or password. Please try again.'
         return render_template('login.html', validation_message=validation_message)
+     
 
     return render_template('login.html', validation_message=validation_message)
+#=============================================================================================#
 
 @app.route("/category")
 def category():
     with open("categories.json", "r") as json_file:
         categories_data = json.load(json_file)
     return flask.render_template("categories.html", categories=categories_data["categories"])
+#=============================================================================================#
+
 
 @app.route("/recipe-details/<id>")
 def recipe_details(id):
