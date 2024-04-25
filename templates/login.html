@@ -11,23 +11,22 @@
         <img src="/static/images/logo.svg" alt="Image" class="logo">
     </div>
     <div class="container">
-        
         <div class="form-container">
             <h2>Login</h2>
-            <form action="/" method="post">
+            <form id="loginForm" action="/" method="post">
                 {% if validation_message %}
                     <span class="warning">{{ validation_message }}</span><br>
                 {% endif %}
-                <input type="email" name="email" placeholder="Email" required>
-                <input type="password" name="password" placeholder="Password" required><br>
-                <input id ="login" type="submit" value="Login">
+                <input id="userEmail" type="email" name="email" placeholder="Email" required>
+                <input id="userPassword" type="password" name="password" placeholder="Password" required><br>
+                <input id="login" type="submit" value="Login">
             </form>
             <div class="login-link">
-            Don't have an account? <a href="/signUp">Sign Up here</a>
+                Don't have an account? <a href="/signUp">Sign Up here</a>
             </div>
         </div>
     </div>
-    
-
+    <script src="/static/js/login.js"></script>
 </body>
+
 </html>

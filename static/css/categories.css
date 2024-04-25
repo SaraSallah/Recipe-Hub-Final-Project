@@ -26,13 +26,11 @@ h1 {
 
 .category-card {
     background-color: #3d51891e;
-    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2); /* horizontal-offset vertical-offset blur-radius color */
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2); 
     border-radius: 8px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     margin: 20px;
     width: calc(33.33% - 40px);
     height:calc(33.33% - 20px);
-
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
 

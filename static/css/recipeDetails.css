@@ -100,8 +100,9 @@ h2 {
     margin-top: 20px;
 }
 
+/* Default button style */
 .favorite-button {
-    background-color:#27355A;
+    background-color: #27355A;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -110,19 +111,16 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
-.favorite-button:hover {
-    background-color: #CC0000;
+/* Style when the recipe is marked as favorite */
+.favorite-button.is-favorite {
+    background-color: red;
 }
 
-.favorite-button i {
-    margin-right: 5px;
-}
-#buttons{
+#buttons {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 24px;
-
 }
 
 
