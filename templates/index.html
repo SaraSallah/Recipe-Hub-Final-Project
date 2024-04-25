@@ -10,26 +10,29 @@
 
 <body>
     <section>
-        <div id="about-web">
-            <img  id="logo" src="/static/images/logo.svg" alt="webSite-logo">
-            <p id="about"> Discover a world of flavorful recipes at Recipe Hub.
-        </p>
-        <br>
-            <input id="logout-button" type="button" value="Logout">
-            <input id = "delete-account" type="submit" value="Delete My Account">
-        
-        
-        </div>
+        <nav>
+            <div id="logo">
+                <img src="/static/images/logo.svg" alt="webSite-logo">
+            </div>
+            <div id="about-web">
+                <input id="logout-button" type="button" value="Logout">
+                <input id="delete-account" type="submit" value="Delete My Account">
+            </div>
+        </nav>
+        <section id="about">
+            <p>Discover a world of flavorful recipes at Recipe Hub.</p>
+        </section>
         <div class="container-pag1">
             {% if recipes %}
             <div id="left-home">
-                <div id="recipe-card">
-                    <img src="{{ recipes[0].strMealThumb }}" alt="{{ recipes[0].strMeal }}">
-                    <div id="recipy-details">
-                        <h2 class="str-name">{{ recipes[0].strMeal }}</h2>
+                <div id="recipe-card" onclick="scrollToRecipe()">
+                    <img src="{{ recipes[1].strMealThumb }}" alt="{{ recipes[1].strMeal }}">
+                    <div id="recipe-details">
+                        <h2 class="str-name">See More </h2>
+
                     </div>
-                </div>
-                <div class="category-card" id="category-card">
+                </div>                
+                                <div class="category-card" id="category-card">
                     <img src="/static/images/categories.svg" alt="explore categories" class="category-image">
                     <div class="category-details">
                         <h2 class="str-name">See more categories</h2>

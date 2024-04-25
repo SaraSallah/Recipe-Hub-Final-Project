@@ -7,6 +7,40 @@ body {
 
     
 }
+nav {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    padding: 10px 20px;
+}
+
+nav #logo img {
+    height: 80px; 
+}
+
+
+#about-web {
+    display: flex;
+    align-items: center;
+}
+
+#about-web p {
+    margin: 0;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+#logout-button,
+#delete-account {
+    background-color:transparent;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #fff;
+    background: linear-gradient(to right, #0F182C, #27355A, #0F182C);
+    font-size: larger;
+}
 
 .container-pag1 {
     width: 100%;
@@ -37,9 +71,7 @@ body {
     justify-content:space-between;
     align-items: center;
     background: linear-gradient(to right, #0F182C, #27355A, #0F182C);
-    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2); /* horizontal-offset vertical-offset blur-radius color */
-    border-radius: 8px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2); 
     margin: 20px;
     cursor:pointer;
     overflow: hidden;}
@@ -49,12 +81,13 @@ body {
     overflow: hidden;
     display: flex;
     justify-content:space-between;
+    text-align: center;
+
     align-items: center;
     background: linear-gradient(to right, #0F182C, #27355A, #0F182C);
-    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2); /* horizontal-offset vertical-offset blur-radius color */
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2); 
     border-radius: 8px;
     cursor:pointer;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     margin: 20px;
 }
 
@@ -118,7 +151,7 @@ body {
     background: linear-gradient(to right, #0F182C, #27355A, #0F182C);
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2);
     width: calc(20% - 40px);
-    border-top-left-radius: 32px;
+    border-top-left-radius: 50%;
     border-top-right-radius: 32px;  
     overflow: hidden;
     margin-bottom: 16px;
@@ -131,8 +164,8 @@ body {
 .recipe-image {
     width: 100%; 
     height: auto;
-    border-top-left-radius: 32px;
-    border-top-right-radius: 32px;  
+    border-radius: 50%;  
+
     margin-bottom: 8px;
 }
 
