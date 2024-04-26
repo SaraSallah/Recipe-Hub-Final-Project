@@ -15,8 +15,7 @@
         {% if favorites %}
             {% for favorite in favorites %}
             <div class="favorites-container">
-
-                <div class="favorite-item">
+                <div class="favorite-item" data-id = "{{favorite.idMeal}}">
                     <img src="{{ favorite.strMealThumb }}" alt="{{ favorite.strMeal }}">
                     <div class="recipe-details">
                         <h2>{{ favorite.strMeal }}</h2>
@@ -33,5 +32,6 @@
             </div>
         {% endif %}
     </div>
+    <script src="/static/js/favList.js"></script>
 </body>
 </html>

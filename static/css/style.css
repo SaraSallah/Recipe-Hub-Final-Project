@@ -21,16 +21,19 @@ nav #logo img {
 #about-web {
     display: flex;
     align-items: center;
+
 }
 
 #about-web p {
     margin: 0;
-    margin-right: 20px; /* Adjust as needed */
+    margin-right: 20px; 
+
 }
 
 #logout-button,
 #delete-account,
-#fav-recipe {
+#fav-recipe, 
+#user-email{
     background-color:transparent;
     border: none;
     padding: 20px;
@@ -150,7 +153,7 @@ nav #logo img {
     background: linear-gradient(to right, #0F182C, #27355A, #0F182C);
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2);
     width: calc(20% - 40px);
-    border-top-left-radius: 50%;
+    border-top-left-radius: 32px;
     border-top-right-radius: 32px;  
     overflow: hidden;
     margin-bottom: 16px;
@@ -170,8 +173,8 @@ nav #logo img {
 .recipe-image {
     width: 100%; 
     height: auto;
-    border-radius: 50%;  
-
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;  
     margin-bottom: 8px;
 }
 

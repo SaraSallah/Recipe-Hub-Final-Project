@@ -5,7 +5,6 @@ from pythonfile.user import User
 app = flask.Flask("main")
 app.secret_key = 'Sara'
 
-
 @app.route("/signUp", methods=["POST", "GET"])
 def sign_up():
     validation_message = None
@@ -18,18 +17,23 @@ def sign_up():
         if error_message:
             return render_template('signUp.html', validation_message=error_message)
 
-        return redirect('/')
+        session.clear()
+        
+        # Redirect to the login page after successful sign-up
+        return redirect(url_for('login'))
 
     return render_template('signUp.html', validation_message=validation_message)
 
+
 @app.route("/deleteAccount", methods=["POST", "GET"])
 def deleteAccount():
-    if 'email' in session:
-        email = session['email']
+    email = session.get('email') 
+    if email:
         User('users.json').delete_user(email)
         session.pop('email', None)
-        return redirect(url_for('signUp'))
+        session.clear()
     return redirect(url_for('signUp'))
+
 #=============================================================================================#
 
 @app.route("/", methods=["POST", "GET"])
