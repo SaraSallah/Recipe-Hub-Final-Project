@@ -12,17 +12,16 @@
         <h1>Categories</h1>
         <div class="category-container">
             {% for category in categories %}
-            <div class="category-card">
+            <div id="category-card" class="category-card" onclick="clickCategory('{{ category['strCategory'] }}')">
                 <img src="{{ category['strCategoryThumb'] }}" alt="{{ category['strCategory'] }}" class="category-image">
                 <div class="category-details">
-                    <h2>{{ category['strCategory'] }}</h2>
-                    <a href="#" class="explore-btn">
-                        Explore More <i class="fa fa-arrow-right"></i>
-                    </a>
+                    <h2 id="category-name">{{ category['strCategory'] }}</h2>
                 </div>
             </div>
             {% endfor %}
         </div>
     </div>
+    <script src="/static/js/categories.js"></script>
 </body>
+
 </html>

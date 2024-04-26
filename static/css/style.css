@@ -1,6 +1,5 @@
 body {
     width: 100%;
-    font-family: Arial, sans-serif;
     background: #0F182C;
     display: flex;
     flex-direction: column;
@@ -76,7 +75,8 @@ nav #logo img {
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2); 
     margin: 20px;
     cursor:pointer;
-    overflow: hidden;}
+    overflow: hidden;
+}
 .category-card{
     margin: 20px;
     width: 350px;
@@ -145,14 +145,17 @@ nav #logo img {
     height: 80vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding: 20px; 
+    gap: 20px; 
 }
 
 .recipe-list-card {
     background: linear-gradient(to right, #0F182C, #27355A, #0F182C);
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2);
     width: calc(20% - 40px);
+    height: auto;
+    cursor:pointer;
     border-top-left-radius: 32px;
     border-top-right-radius: 32px;  
     overflow: hidden;
@@ -163,11 +166,9 @@ nav #logo img {
     transform: translateY(-5px);
 }
 .recipe-name{
-    margin-top: 8px;
     color: #ccc;
     font-size: x-large;
     text-align: center;
-    font-weight: normal;
 }
 
 .recipe-image {
@@ -175,7 +176,6 @@ nav #logo img {
     height: auto;
     border-top-left-radius: 32px;
     border-top-right-radius: 32px;  
-    margin-bottom: 8px;
 }
 
 

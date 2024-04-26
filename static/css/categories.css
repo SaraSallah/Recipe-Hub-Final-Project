@@ -70,17 +70,3 @@ h1 {
 .category-details a:hover {
     background-color: #236ab6;
 }
-.explore-btn {
-    display: inline-block;
-    background-color:#1c2642;
-    color: #DDE4ED;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-top: auto; /* Push the button to the bottom */
-    transition: background-color 0.3s ease-in-out;
-}
-
-.explore-btn i {
-    margin-left: 5px; /* Add some space between text and icon */
-}

@@ -1,20 +1,53 @@
 [
     {
-        "email": "user1@example.com",
-        "pass": "password1",
-        "user": "user1",
-        "favorites": []
-    },
-    {
-        "email": "sara2@gmail.com",
-        "pass": "123456789",
-        "user": "SaraSallah",
-        "favorites": []
-    },
-    {
         "email": "sara@gmail.com",
         "pass": "123456789",
         "user": "SaraSallah",
-        "favorites": []
+        "date": "2024-04-27 00:45:43",
+        "favorites": [
+            {
+                "idMeal": "53029",
+                "strMeal": "Mulukhiyah",
+                "strDrinkAlternate": null,
+                "strCategory": "Beef",
+                "strArea": "Egyptian",
+                "strInstructions": "Saute the onions in the 3-4 tablespoons olive oil\r\nAdd the beef cubes or the chicken cutlets, sear for 3-4 min on each side\r\nAdd 1 liter of water or just enough to cover the meat\r\nCook over medium heat until the meat is done (I usually do this in the pressure cooker and press them for 5 min)\r\n\r\nAdd the frozen mulukhyia and stir until it thaws completely and then comes to a boil\r\n\r\nIn another pan add the 1/4 to 1/2 cup of olive oil and the cloves of garlic and cook over medium low heat until you can smell the garlic (don\u00e2\u20ac\u2122t brown it, it will become bitter)\r\n\r\nAdd the oil and garlic to the mulukhyia and lower the heat and simmer for 5-10 minutes\r\nAdd salt to taste\r\n\r\nServe with a generous amount of lemon juice.\r\n\r\nYou can serve it with some short grain rice or some pita bread",
+                "strMealThumb": "https://www.themealdb.com/images/media/meals/x372ug1598733932.jpg",
+                "strTags": null,
+                "strYoutube": "https://www.youtube.com/watch?v=vWc5JzgAkIQ",
+                "ingredients": [
+                    {
+                        "name": "Mulukhiyah",
+                        "measurement": "800g"
+                    },
+                    {
+                        "name": "Onion",
+                        "measurement": "1 chopped"
+                    },
+                    {
+                        "name": "Beef",
+                        "measurement": "300g"
+                    },
+                    {
+                        "name": "Salt",
+                        "measurement": "1 tsp"
+                    },
+                    {
+                        "name": "Water",
+                        "measurement": "1 Litre"
+                    },
+                    {
+                        "name": "Garlic Clove",
+                        "measurement": "1"
+                    },
+                    {
+                        "name": "Olive Oil",
+                        "measurement": "1/2 cup"
+                    }
+                ],
+                "isFav": true,
+                "strSource": "https://chefindisguise.com/2017/05/15/mulukhiyah-a-stew-fit-for-royals/"
+            }
+        ]
     }
 ]

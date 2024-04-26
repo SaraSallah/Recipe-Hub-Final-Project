@@ -1,5 +1,4 @@
 body {
-    /* background: linear-gradient(to right, #0F182C, #27355A, #0F182C); */
     background-color: #0F182C;
 }
 
@@ -26,7 +25,6 @@ h1 {
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     margin: 20px;
-    /* overflow: hidden; */
     transition: transform 0.3s ease-in-out;
 }
 

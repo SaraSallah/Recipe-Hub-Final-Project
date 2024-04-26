@@ -1,5 +1,4 @@
-const recipeItems = document.querySelectorAll(".favorite-item");
-
+const recipeItems = document.querySelectorAll(".recipe-list-card");
 
 recipeItems.forEach(function(item) {
     item.addEventListener("click", function() {
