@@ -99,6 +99,135 @@
                 ],
                 "isFav": true,
                 "strSource": "https://www.themediterraneandish.com/egyptian-koshari-recipe/"
+            },
+            {
+                "idMeal": "53028",
+                "strMeal": "Shawarma",
+                "strDrinkAlternate": null,
+                "strCategory": "Chicken",
+                "strArea": "Egyptian",
+                "strInstructions": "Combine the marinade ingredients in a large ziplock bag (or bowl).\r\nAdd the chicken and use your hands to make sure each piece is coated. If using a ziplock bag, I find it convenient to close the bag then massage the bag to disperse the rub all over each chicken piece.\r\nMarinate overnight or up to 24 hours.\r\nCombine the Yoghurt Sauce ingredients in a bowl and mix. Cover and put in the fridge until required (it will last for 3 days in the fridge).\r\nHeat grill/BBQ (or large heavy based pan on stove) on medium high. You should not need to oil it because the marinade has oil in it and also thigh fillets have fat. But if you are worried then oil your hotplate/grill. (See notes for baking)\r\nPlace chicken on the grill and cook the first side for 4 to 5 minutes until nicely charred, then turn and cook the other side for 3 to 4 minutes (the 2nd side takes less time).\r\nRemove chicken from the grill and cover loosely with foil. Set aside to rest for 5 minutes.\r\nTO SERVE\r\nSlice chicken and pile onto platter alongside flatbreads, Salad and the Yoghurt Sauce.\r\nTo make a wrap, get a piece of flatbread and smear with Yoghurt Sauce. Top with a bit of lettuce and tomato and Chicken Shawarma. Roll up and enjoy!",
+                "strMealThumb": "https://www.themealdb.com/images/media/meals/kcv6hj1598733479.jpg",
+                "strTags": null,
+                "strYoutube": "https://www.youtube.com/watch?v=3lxUIeKDgic",
+                "ingredients": [
+                    {
+                        "name": "Chicken Thighs",
+                        "measurement": "1 kg"
+                    },
+                    {
+                        "name": "Coriander",
+                        "measurement": "1 tbs"
+                    },
+                    {
+                        "name": "Cumin",
+                        "measurement": "1 tbs"
+                    },
+                    {
+                        "name": "Cardamom",
+                        "measurement": "1 tbs"
+                    },
+                    {
+                        "name": "Cayenne Pepper",
+                        "measurement": "1 tsp"
+                    },
+                    {
+                        "name": "Paprika",
+                        "measurement": "2 tsp"
+                    },
+                    {
+                        "name": "Lemon Juice",
+                        "measurement": "2 tbs"
+                    },
+                    {
+                        "name": "Olive Oil",
+                        "measurement": "3 tbs"
+                    },
+                    {
+                        "name": "Greek Yogurt",
+                        "measurement": "1 cup"
+                    },
+                    {
+                        "name": "Garlic Clove",
+                        "measurement": "1"
+                    },
+                    {
+                        "name": "Cumin",
+                        "measurement": "1 tsp"
+                    },
+                    {
+                        "name": "Lemon Juice",
+                        "measurement": "Splash"
+                    },
+                    {
+                        "name": "Lettuce",
+                        "measurement": "Sliced"
+                    },
+                    {
+                        "name": "Tomato",
+                        "measurement": "Sliced"
+                    },
+                    {
+                        "name": "Pita Bread",
+                        "measurement": "6"
+                    }
+                ],
+                "isFav": true,
+                "strSource": "https://www.recipetineats.com/chicken-sharwama-middle-eastern/"
+            },
+            {
+                "idMeal": "52767",
+                "strMeal": "Bakewell tart",
+                "strDrinkAlternate": null,
+                "strCategory": "Dessert",
+                "strArea": "British",
+                "strInstructions": "To make the pastry, measure the flour into a bowl and rub in the butter with your fingertips until the mixture resembles fine breadcrumbs. Add the water, mixing to form a soft dough.\r\nRoll out the dough on a lightly floured work surface and use to line a 20cm/8in flan tin. Leave in the fridge to chill for 30 minutes.\r\nPreheat the oven to 200C/400F/Gas 6 (180C fan).\r\nLine the pastry case with foil and fill with baking beans. Bake blind for about 15 minutes, then remove the beans and foil and cook for a further five minutes to dry out the base.\r\nFor the filing, spread the base of the flan generously with raspberry jam.\r\nMelt the butter in a pan, take off the heat and then stir in the sugar. Add ground almonds, egg and almond extract. Pour into the flan tin and sprinkle over the flaked almonds.\r\nBake for about 35 minutes. If the almonds seem to be browning too quickly, cover the tart loosely with foil to prevent them burning.",
+                "strMealThumb": "https://www.themealdb.com/images/media/meals/wyrqqq1468233628.jpg",
+                "strTags": "Tart,Baking,Alcoholic",
+                "strYoutube": "https://www.youtube.com/watch?v=1ahpSTf_Pvk",
+                "ingredients": [
+                    {
+                        "name": "plain flour",
+                        "measurement": "175g/6oz"
+                    },
+                    {
+                        "name": "chilled butter",
+                        "measurement": "75g/2\u0622\u00bdoz"
+                    },
+                    {
+                        "name": "cold water",
+                        "measurement": "2-3 tbsp"
+                    },
+                    {
+                        "name": "raspberry jam",
+                        "measurement": "1 tbsp"
+                    },
+                    {
+                        "name": "butter",
+                        "measurement": "125g/4\u0622\u00bdoz"
+                    },
+                    {
+                        "name": "caster sugar",
+                        "measurement": "125g/4\u0622\u00bdoz"
+                    },
+                    {
+                        "name": "ground almonds",
+                        "measurement": "125g/4\u0622\u00bdoz"
+                    },
+                    {
+                        "name": "free-range egg, beaten",
+                        "measurement": "1"
+                    },
+                    {
+                        "name": "almond extract",
+                        "measurement": "\u0622\u00bd tsp"
+                    },
+                    {
+                        "name": "flaked almonds",
+                        "measurement": "50g/1\u0622\u00beoz"
+                    }
+                ],
+                "isFav": true
             }
         ]
     }

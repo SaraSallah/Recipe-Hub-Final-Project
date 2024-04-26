@@ -154,7 +154,26 @@ def add_to_fav(recipe_id):
         json.dump(users_data, users_file, indent=4)
     
     return jsonify({"success": True, "recipe_id": recipe_id})
+#=============================================================================================#
 
+@app.route("/fav-recipe")
+def fav_list():
+    user_email = session.get('email')
+    if not user_email:
+        return redirect(url_for('login'))
+    
+    with open("users.json", "r") as users_file:
+        users_data = json.load(users_file)
+    
+    user = None
+    for u in users_data:
+        if u["email"] == user_email:
+            user = u
+            break
+    
+    favorites = user.get("favorites", [])
+    
+    return render_template("favList.html", favorites=favorites)
 
 
 #=============================================================================================#
@@ -164,6 +183,7 @@ def logout():
     if 'email' in session:
         session.pop('email')
     return redirect(url_for('login'))
+
 #=============================================================================================#
 
     

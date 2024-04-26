@@ -4,8 +4,6 @@ body {
     background: #0F182C;
     display: flex;
     flex-direction: column;
-
-    
 }
 nav {
     color: #fff;
@@ -31,7 +29,8 @@ nav #logo img {
 }
 
 #logout-button,
-#delete-account {
+#delete-account,
+#fav-recipe {
     background-color:transparent;
     border: none;
     padding: 20px;
@@ -159,6 +158,13 @@ nav #logo img {
 
 .recipe-list-card:hover {
     transform: translateY(-5px);
+}
+.recipe-name{
+    margin-top: 8px;
+    color: #ccc;
+    font-size: x-large;
+    text-align: center;
+    font-weight: normal;
 }
 
 .recipe-image {
