@@ -1,4 +1,5 @@
-Recipe Hub is website for discovering, preparing, and sharing recipes. With easy-to-follow instructions, ingredient lists, and a variety of categories
+# Recipe Hub 
+ Recipe Hubis website for discovering, preparing, and sharing recipes. With easy-to-follow instructions, ingredient lists, and a variety of categories
 
 ## Prerequisites
 Did you add any additional modules that someone needs to install (for instance anything in Python that you `pip install-ed`)? 
