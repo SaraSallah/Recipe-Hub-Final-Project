@@ -1,5 +1,10 @@
 # Recipe Hub 
  Recipe Hubis website for discovering, preparing, and sharing recipes. With easy-to-follow instructions, ingredient lists, and a variety of categories
+ - What does it do? 
+   Example: "This is a web project which allow user know how can prepare recipe."
+- What is the "new feature" which you have implemented that we haven't seen before?  
+  Example: "reading from json file",  "sending values to the route to use it", "deleting from file" , "using jinja to display elemnts"
+
 
 ## Prerequisites
 Did you add any additional modules that someone needs to install (for instance anything in Python that you `pip install-ed`)? 
