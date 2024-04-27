@@ -38,8 +38,8 @@ List those here (if any).
   In particular, the code should not use `print()` or `console.log()` for any information the app user should see. Instead, all user feedback needs to be visible in the browser.  
 - [x] All exercises have been completed as per the requirements and pushed to the respective GitHub repository.
  <div style="display: flex; justify-content: space-between;">
-        <img src= "https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/ccf978bc-4ab7-4b70-9c81-3b1d0733b650"  >
-        <img src="https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/de10c341-2475-4872-851c-e1d2b58638f8">
+        <img src= "https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/1453a782-6937-4ce1-bf50-54b9fe9639f2">
+        <img src="https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/6e22905f-50af-4357-92f8-34780e580698">
         <img src="https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/f7742c68-1e82-43ea-88ff-e6ac2d12862f" >
         <img src= "https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/ce0b5a9e-2623-4990-8901-6b579a7c8f02" >
         <img src="https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/cda7d69a-7bd0-4327-b7ee-e047cf7231a0">
