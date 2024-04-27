@@ -47,6 +47,91 @@
                 ],
                 "isFav": true,
                 "strSource": "https://chefindisguise.com/2017/05/15/mulukhiyah-a-stew-fit-for-royals/"
+            },
+            {
+                "idMeal": "53027",
+                "strMeal": "Koshari",
+                "strDrinkAlternate": null,
+                "strCategory": "Vegetarian",
+                "strArea": "Egyptian",
+                "strInstructions": "Cook the lentils. Bring lentils and 4 cups of water to a boil in a medium pot or saucepan over high heat. Reduce the heat to low and cook until lentils are just tender (15-17 minutes). Drain from water and season with a little salt. (Note: when the lentils are ready, they should not be fully cooked. They should be only par-cooked and still have a bite to them as they need to finish cooking with the rice).\r\nNow, for the rice. Drain the rice from its soaking water. Combine the par-cooked lentils and the rice in the saucepan over medium-high heat with 1 tbsp cooking oil, salt, pepper, and coriander. Cook for 3 minutes, stirring regularly. Add warm water to cover the rice and lentil mixture by about 1 1/2 inches (you\u00e2\u20ac\u2122ll probably use about 3 cups of water here). Bring to a boil; the water should reduce a bit. Now cover and cook until all the liquid has been absorbed and both the rice and lentils are well cooked through (about 20 minutes).  Keep covered and undisturbed for 5 minutes or so.\r\nNow make the pasta. While the rice and lentils are cooking, make the pasta according to package instructions by adding the elbow pasta to boiling water with a dash of salt and a little oil. Cook until the pasta is al dente. Drain.\r\nCover the chickpeas and warm in the microwave briefly before serving.\r\n\r\nMake the crispy onion topping. \r\n\r\nSprinkle the onion rings with salt, then toss them in the flour to coat. Shake off excess flour.\r\nIn a large skillet, heat the cooking oil over medium-high heat, cook the onion rings, stirring often, until they turn a nice caramelized brown. Onions must be crispy, but not burned (15-20 minutes).",
+                "strMealThumb": "https://www.themealdb.com/images/media/meals/4er7mj1598733193.jpg",
+                "strTags": null,
+                "strYoutube": "https://www.youtube.com/watch?v=y0d2ZMZBW4Y",
+                "ingredients": [
+                    {
+                        "name": "Brown Lentils",
+                        "measurement": "1 1/2 cups"
+                    },
+                    {
+                        "name": "Rice",
+                        "measurement": "1 1/2 cups"
+                    },
+                    {
+                        "name": "Coriander",
+                        "measurement": "1/2 tsp"
+                    },
+                    {
+                        "name": "Macaroni",
+                        "measurement": "2 cups"
+                    },
+                    {
+                        "name": "Chickpeas",
+                        "measurement": "Can"
+                    },
+                    {
+                        "name": "Onion",
+                        "measurement": "1 large"
+                    },
+                    {
+                        "name": "Salt",
+                        "measurement": "Sprinking"
+                    },
+                    {
+                        "name": "Vegetable Oil",
+                        "measurement": "1/2 cup"
+                    }
+                ],
+                "isFav": true,
+                "strSource": "https://www.themediterraneandish.com/egyptian-koshari-recipe/"
+            },
+            {
+                "idMeal": "52776",
+                "strMeal": "Chocolate Gateau",
+                "strDrinkAlternate": null,
+                "strCategory": "Dessert",
+                "strArea": "French",
+                "strInstructions": "Preheat the oven to 180\u0622\u00b0C/350\u0622\u00b0F/Gas Mark 4. Grease and line the base of an 8 in round spring form cake tin with baking parchment\r\nBreak the chocolate into a heatproof bowl and place over a saucepan of gently simmering water and stir until it melts. (or melt in the microwave for 2-3 mins stirring occasionally)\r\nPlace the butter and sugar in a mixing bowl and cream together with a wooden spoon until light and fluffy. Gradually beat in the eggs, adding a little flour if the mixture begins to curdle. Fold in the remaining flour with the cooled, melted chocolate and milk. Mix until smooth.\r\nSpread the mixture into the cake tin and bake for 50-55 mins or until firm in the centre and a skewer comes out cleanly. Cool for 10 minutes, then turn out and cool completely.",
+                "strMealThumb": "https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg",
+                "strTags": "Cake,Chocolate,Desert,Pudding",
+                "strYoutube": "https://www.youtube.com/watch?v=dsJtgmAhFF4",
+                "ingredients": [
+                    {
+                        "name": "Plain chocolate",
+                        "measurement": "250g"
+                    },
+                    {
+                        "name": "Butter",
+                        "measurement": "175g"
+                    },
+                    {
+                        "name": "Milk",
+                        "measurement": "2 tablespoons"
+                    },
+                    {
+                        "name": "Eggs",
+                        "measurement": "5"
+                    },
+                    {
+                        "name": "Granulated Sugar",
+                        "measurement": "175g"
+                    },
+                    {
+                        "name": "Flour",
+                        "measurement": "125g"
+                    }
+                ],
+                "isFav": true
             }
         ]
     }

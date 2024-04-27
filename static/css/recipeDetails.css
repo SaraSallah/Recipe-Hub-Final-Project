@@ -1,14 +1,15 @@
-html, body {
+html,
+body {
     width: 100%;
-    height: 100%; 
-    background: #0F182C ;
+    height: 100%;
+    background: #0F182C;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 100%; /* Set container to take up full height of viewport */
+    height: 100%;
     margin: 20px;
 }
 
@@ -20,24 +21,26 @@ html, body {
     flex: 1;
     text-align: center;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    height: 100%; /* Set right-side to take up full height of container */
+    height: 100%;
 }
 
 .right-side img {
     width: 80%;
     height: auto;
-    border-radius:50%; 
-    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, .9); /* horizontal-offset vertical-offset blur-radius color */
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, .9);
 
 }
-h1{
+
+h1 {
     color: #ccc;
     font-size: xx-large;
 
 }
-h4{
+
+h4 {
     color: #b15709;
     font-size: larger;
 }
@@ -48,8 +51,9 @@ h2 {
     color: #ccc;
 }
 
-.ingredients,.instructions{
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0); 
+.ingredients,
+.instructions {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0);
     background: linear-gradient(to right, #0F182C, #27355A, #0F182C);
     padding: 14px;
     margin: 14px;
@@ -57,17 +61,19 @@ h2 {
 
 .instructions p {
     color: #ccc;
-    font-weight:50px;
+    font-weight: 50px;
     font-size: 16px;
-    font-family:serif ;
+    font-family: serif;
     padding-bottom: 4px;
 }
-.ingredients ul{
+
+.ingredients ul {
     color: #ccc;
-    font-weight:50px;
+    font-weight: 50px;
     font-size: 16px;
 }
-.ingredients i{
+
+.ingredients i {
     margin: 4px;
     color: #b15709;
 }
@@ -78,7 +84,8 @@ h2 {
 }
 
 .youtube-button {
-    background-color: #FF0000; /* YouTube red */
+    background-color: #FF0000;
+    /* YouTube red */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -89,18 +96,18 @@ h2 {
 }
 
 .youtube-button:hover {
-    background-color: #CC0000; /* Darker red on hover */
+    background-color: #CC0000;
     transform: fade in;
 }
 
 .youtube-button i {
     margin-right: 5px;
 }
+
 .favorite {
     margin-top: 20px;
 }
 
-/* Default button style */
 .favorite-button {
     background-color: #27355A;
     color: white;
@@ -111,7 +118,6 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
-/* Style when the recipe is marked as favorite */
 .favorite-button.is-favorite {
     background-color: red;
 }
@@ -122,5 +128,3 @@ h2 {
     align-items: flex-start;
     gap: 24px;
 }
-
-

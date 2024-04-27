@@ -1,13 +1,10 @@
-# Recipe Hub 
- Recipe Hubis website for discovering, preparing, and sharing recipes. With easy-to-follow instructions, ingredient lists, and a variety of categories
+Recipe Hub is website for discovering, preparing, and sharing recipes. With easy-to-follow instructions, ingredient lists, and a variety of categories
 
 ## Prerequisites
 Did you add any additional modules that someone needs to install (for instance anything in Python that you `pip install-ed`)? 
 List those here (if any).
+jinja in visual studio code
 
-  -install python.
-  -install flask .
-  -jinja in visual studio code
 ## Project Checklist
 - [x] It is available on GitHub.
 - [x] It uses the Flask web framework.
@@ -37,16 +34,3 @@ List those here (if any).
 - [x] The code follows the code and style conventions as introduced in the course, is fully documented using comments and doesn't contain unused or experimental code. 
   In particular, the code should not use `print()` or `console.log()` for any information the app user should see. Instead, all user feedback needs to be visible in the browser.  
 - [x] All exercises have been completed as per the requirements and pushed to the respective GitHub repository.
- <div style="display: flex; justify-content: space-between;">
-        <img src= "https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/ccf978bc-4ab7-4b70-9c81-3b1d0733b650"  >
-        <img src="https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/de10c341-2475-4872-851c-e1d2b58638f8">
-        <img src="https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/f7742c68-1e82-43ea-88ff-e6ac2d12862f" >
-        <img src= "https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/ce0b5a9e-2623-4990-8901-6b579a7c8f02" >
-        <img src="https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/cda7d69a-7bd0-4327-b7ee-e047cf7231a0">
-        <img src="https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/ac5e5f77-8e25-4b41-8b07-8cd3dbe91d2a">
-        <img src="https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/7d77993a-f818-4f40-a01c-348faf4cb090">
-        <img src="=https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/3ce76746-c57a-4cbc-bec4-1610683ca8b6">
-        <img src="https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/57745388-bc9c-4b04-b0cd-ca6ab02dcf3a">
-         <img src="https://github.com/SaraSallah/Recipe-Hub-Final-Project/assets/93276124/76dee307-fc28-4a47-8fa8-f09579f6b353">
-
-  </div>

@@ -15,17 +15,17 @@ if (localEmail) {
     userEmail.textContent = "No email found"; 
 }
 
-// Redirect to favorite recipes page when the element with id "fav-recipe" is clicked
+// Redirect to favorite recipes page 
 document.getElementById("fav-recipe").addEventListener("click", function() {
     window.location.href = "/fav-recipe";
 });
 
 // Redirect to category page when clicking on the element with id "categoryCard"
 categoryCard.addEventListener("click", function() {
-    window.location.href = "http://127.0.0.1:5000/category";
+    window.location.href = "/category";
 });
 
-// Add click event listeners to all elements in recipeItems to redirect to recipe details page
+//  redirect to recipe details page by get id 
 recipeItems.forEach(function(item) {
     item.addEventListener("click", function() {
         const recipeId = item.dataset.id;
@@ -33,11 +33,11 @@ recipeItems.forEach(function(item) {
     });
 });
 
-// Log out the user when clicking on the element with id "logout"
+// Log out event
 logout.addEventListener("click", function() {
     fetch("/logout", { method: "POST" })
         .then(() => {
-            // After logging out, redirect to the home page
+            // After logging out, redirect to the login page
             window.location.href = "/";
         })
 });

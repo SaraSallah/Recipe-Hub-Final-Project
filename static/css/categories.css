@@ -22,11 +22,11 @@ h1 {
 
 .category-card {
     background: linear-gradient(to right, #0F182C, #27355A, #0F182C);
-    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2); 
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     margin: 20px;
     width: calc(33.33% - 40px);
-    height:calc(33.33% - 20px);
+    height: calc(33.33% - 20px);
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
 
@@ -52,7 +52,7 @@ h1 {
     color: #FFFFFF;
     font-size: 1.5rem;
     text-align: center;
-    
+
 }
 
 .category-details a {

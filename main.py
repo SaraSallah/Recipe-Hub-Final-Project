@@ -2,9 +2,12 @@ import flask
 from flask import render_template , request,redirect, url_for ,session,jsonify,abort
 import json
 from pythonfile.user import User
+
+
 app = flask.Flask("main")
 app.secret_key = 'Sara'
 
+#routing to signUp page
 @app.route("/signUp", methods=["POST", "GET"])
 def sign_up():
     validation_message = None
@@ -55,6 +58,7 @@ def deleteAccount():
 
 #=============================================================================================#
 
+#routing to login page
 @app.route("/", methods=["POST", "GET"])
 def login():
     validation_message = None
@@ -87,6 +91,7 @@ def login():
 
 # #=============================================================================================#
 
+#routing to login page
 @app.route("/home")
 def home():
     # Check  user if not logged in redirect to the login page
@@ -103,6 +108,7 @@ def home():
         
 #=============================================================================================#
 
+#routing to all category page
 @app.route("/category")
 def category():
     # Open and read the categories  from the JSON file
@@ -112,7 +118,7 @@ def category():
     return flask.render_template("categories.html", categories=categories_data["categories"])
 
 #=============================================================================================#
-
+#routing to categoty page
 @app.route("/category/<category_name>")
 def category_name(category_name):
 
@@ -192,7 +198,7 @@ def add_to_fav(recipe_id):
             recipe = r
             break
     
-    # Retrieve user's email from session
+    # get user's email from session
     user_email = session.get('email')
     
     # Check if user is logged in

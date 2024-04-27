@@ -6,10 +6,6 @@ categoryCard.addEventListener("click", function() {
     clickCategory(categoryName);
 });
 
-function clickCategory(categoryName) {
-    window.location.href = "/category/" + encodeURIComponent(categoryName);
-}
-
 
 function clickCategory(categoryName) {
     window.location.href = "/category/" + categoryName;

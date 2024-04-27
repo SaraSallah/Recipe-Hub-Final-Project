@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SignUp Page</title>
     <link rel="stylesheet" href="/static/css/auth.css">
 </head>
+
 <body>
     <div class="image-container">
         <img src="/static/images/logo.svg" alt="Image" class="logo">
@@ -16,7 +18,7 @@
             <form id="signup-form" action="/signUp" method="post">
                 <input type="text" name="username" placeholder="Username" required>
                 {% if validation_message %}
-                    <span class="warning">{{ validation_message }}</span><br>
+                <span class="warning">{{ validation_message }}</span><br>
                 {% endif %}
                 <input type="email" name="email" placeholder="Email" required>
                 <input type="password" name="password" placeholder="Password" required><br>
@@ -30,4 +32,5 @@
 
     <script src="signup.js"></script>
 </body>
+
 </html>

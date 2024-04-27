@@ -12,7 +12,7 @@
         <h1>Categories</h1>
         <div class="category-container">
             {% for category in categories %}
-            <div id="category-card" class="category-card" onclick="clickCategory('{{ category['strCategory'] }}')">
+            <div id="category-card" class="category-card" >
                 <img src="{{ category['strCategoryThumb'] }}" alt="{{ category['strCategory'] }}" class="category-image">
                 <div class="category-details">
                     <h2 id="category-name">{{ category['strCategory'] }}</h2>

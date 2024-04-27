@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,32 +8,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="/static/css/favList.css">
 </head>
+
 <body>
     <div class="container">
 
-    <h1>Favorite Recipes</h1>
+        <h1>Favorite Recipes</h1>
 
         {% if favorites %}
-            {% for favorite in favorites %}
-            <div class="favorites-container">
-                <div class="favorite-item" data-id = "{{favorite.idMeal}}">
-                    <img src="{{ favorite.strMealThumb }}" alt="{{ favorite.strMeal }}">
-                    <div class="recipe-details">
-                        <h2>{{ favorite.strMeal }}</h2>
-                        <div class="category">
-                            <i class="fas fa-utensils"></i>
-                            <p>{{ favorite.strCategory }}</p>
-                        </div>                    
+        {% for favorite in favorites %}
+        <div class="favorites-container">
+            <div class="favorite-item" data-id="{{favorite.idMeal}}">
+                <img src="{{ favorite.strMealThumb }}" alt="{{ favorite.strMeal }}">
+                <div class="recipe-details">
+                    <h2>{{ favorite.strMeal }}</h2>
+                    <div class="category">
+                        <i class="fas fa-utensils"></i>
+                        <p>{{ favorite.strCategory }}</p>
                     </div>
                 </div>
+            </div>
             {% endfor %}
-        {% else %}
-            <div class="placeholder" >
+            {% else %}
+            <div class="placeholder">
                 <img src="/static/images/noRecipe.png">
                 <p> No Recipe Found </p>
             </div>
-        {% endif %}
-    </div>
-    <script src="/static/js/favList.js"></script>
+            {% endif %}
+        </div>
+        <script src="/static/js/favList.js"></script>
 </body>
+
 </html>

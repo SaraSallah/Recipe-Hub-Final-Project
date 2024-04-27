@@ -52,12 +52,12 @@ h1 {
 .placeholder {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
 
 .placeholder img {
-    width: 50%; 
+    width: 50%;
 }
 
 .placeholder p {
