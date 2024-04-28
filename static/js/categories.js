@@ -1,14 +1,11 @@
-const categoryCard = document.getElementById("category-card");
-const categoryNameElement = document.getElementById("category-name");
+const categoryItem = document.querySelectorAll(".category-card");
 
-categoryCard.addEventListener("click", function() {
-    const categoryName = categoryNameElement.textContent;
-    clickCategory(categoryName);
+categoryItem.forEach(function(item) {
+    item.addEventListener("click", function() {
+        // Get the data-id attribute value from the clicked item
+        const categoryName = item.dataset.id; 
+        // Redirect the user to the recipe details page .
+        window.location.href = "/category/" + categoryName;
+    });
 });
-
-
-function clickCategory(categoryName) {
-    window.location.href = "/category/" + categoryName;
-}
-
 
