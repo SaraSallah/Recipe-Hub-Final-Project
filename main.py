@@ -5,12 +5,14 @@ from pythonfile.user import User
 
 
 app = flask.Flask("main")
+
 app.secret_key = 'Sara'
 
 #routing to signUp page
 @app.route("/signUp", methods=["POST", "GET"])
 def sign_up():
     validation_message = None
+    session.pop('email', None)
     
     # Handle POST request when user submits sign-up form
     if request.method == "POST":
@@ -25,6 +27,8 @@ def sign_up():
         # If there's  error message, render the sign-up page with the error message
         if error_message:
             return render_template('signUp.html', validation_message=error_message)
+        
+                
 
         # Clear the session
         session.clear()
@@ -45,11 +49,10 @@ def deleteAccount():
     email = session.get('email') 
     if email:
         # Delete user from the database
-        User('users.json', email).delete_user(email)
+        User('users.json', email).delete_user()
         
         # Remove email from the session
-        session.pop('email', None)
-        
+        session.pop('email', None)        
         # Clear the session
         session.clear()
     
