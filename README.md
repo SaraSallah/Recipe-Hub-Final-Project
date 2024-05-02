@@ -12,10 +12,10 @@ List those here (if any).
 
 Before running this project, ensure you have the following prerequisites installed:
 
-Python: Install Python from the official website: python.org
-Flask: You can install Flask using pip, Python's package installer. Run the following command:
-   pip install Flask
-Jinja in Visual Studio Code: Ensure you have Visual Studio Code installed. Jinja is a templating engine used by Flask, and it should be integrated into Visual Studio Code by default when you have the Python extension installed.
+- Python: Install Python from the official website: python.org
+- Flask: You can install Flask using pip, Python's package installer. Run the following command:
+<p> pip install Flask </p> 
+- Jinja in Visual Studio Code: Ensure you have Visual Studio Code installed. Jinja is a templating engine used by Flask, and it should be integrated into Visual Studio Code by default when you have the Python extension installed.
 ## Project Checklist
 - [x] It is available on GitHub.
 - [x] It uses the Flask web framework.
