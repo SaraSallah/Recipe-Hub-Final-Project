@@ -1,3 +1,10 @@
+{% extends "navBar.html" %}
+{% block navbar %}
+
+{{ super() }}
+
+{% endblock %}
+{% block body %}  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +15,7 @@
 
 </head>
 <body>
+   
     <div class="container">
         <h1>Categories</h1>
         <div class="category-container">
@@ -25,3 +33,4 @@
 </body>
 
 </html>
+{% endblock %}

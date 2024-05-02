@@ -1,0 +1,28 @@
+body {
+    background-color: #0F182C !important;
+
+}
+
+.nav-bar {
+    /* background-color: #0F182C !important; */
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #fff;
+   
+
+}
+
+
+.nav-item {
+    background: linear-gradient(to right, #0F182C, #27355A, #0F182C) !important;
+  
+}
+
+.navbar-nav a {
+    color: #fff !important;
+    font-size: larger !important;
+    padding: 16px !important;
+}

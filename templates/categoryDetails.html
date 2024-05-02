@@ -1,3 +1,10 @@
+{% extends "navBar.html" %}
+{% block navbar %}
+
+{{ super() }}
+
+{% endblock %}
+{% block body %} 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,7 +24,7 @@
     <h1 style="margin: 20px;">{{recipes[0].strCategory}}</h1>
     <div id="recipes-container">
         {% for recipe in recipes %}
-        <div class="recipe-list-card" style=" width: max-width ; height: 65vh; font-size: 16px; "
+        <div class="recipe-list-card" 
             data-id="{{recipe['idMeal']}}">
             <img src="{{ recipe['strMealThumb'] }}" alt="{{ recipe['strMeal'] }}" class="recipe-image">
             <div class="recipe-details">
@@ -44,3 +51,4 @@
 </body>
 
 </html>
+{% endblock %}

@@ -35,7 +35,7 @@ form {
 }
 
 input[type="text"],
-input[type = "email"] ,
+input[type="email"],
 input[type="password"] {
     margin-bottom: 20px;
     height: 40px;
@@ -97,6 +97,34 @@ input[type="submit"]:hover {
     margin-inline: 16px;
 }
 
-.warning + input[type="email"] {
+.warning+input[type="email"] {
     border: 1px solid red;
+}
+
+
+@media only screen and (max-width: 768px) {
+    form {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="submit"] {
+        width: calc(100% - 64px);
+        margin: 8px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="submit"] {
+        width: calc(100% - 64px);
+        margin: 8px;
+
+    }
 }

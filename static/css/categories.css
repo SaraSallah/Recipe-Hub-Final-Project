@@ -37,7 +37,7 @@ h1 {
 }
 
 .category-card img {
-    width: auto;
+    width: 100%;
     height: auto;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
@@ -69,4 +69,18 @@ h1 {
 
 .category-details a:hover {
     background-color: #236ab6;
+}
+
+@media screen and (max-width: 768px) {
+    .category-card {
+        width: calc(50% - 40px);
+        height: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .category-card {
+        width: calc(100% - 40px);
+        height: auto; /* You can set height to auto or any specific value suitable for smaller screens */
+    }
 }
